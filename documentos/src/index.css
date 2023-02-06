@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  /* background-color: #ffffff; */
+  max-width: 21cm;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 17% 13% 35% 35%;
+}
+
+
+
+
+

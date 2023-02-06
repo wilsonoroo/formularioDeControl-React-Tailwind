@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/**","./index.html", "./src/**/*.jsx"],
+  content: ["./public/**", "./index.html", "./src/**/*.jsx"],
   theme: {
-    colors:{
+    colors: {
       primaryColorKinRoss: "#0070c0",
       secondaryColorKinRoss: "#262626",
       tertiaryColorKinRoss: "#262626",

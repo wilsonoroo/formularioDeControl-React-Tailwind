@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import imgKinRoss from "./kinRossImg.png"
-import dataKinRoss from './datosKinRoss.json';
+import dataKinRoss from './ecb865aa57.json';
 
 export const KinRossLayout = () => {
 
@@ -14,7 +14,7 @@ export const KinRossLayout = () => {
             setLoading(false);
         }, 1000);   
     }, [])
-    const { encabezado, fechaCreacion } = data
+    const { encabezado, fechaCreacion, validadoPor } = data
     
    
 
@@ -23,18 +23,26 @@ export const KinRossLayout = () => {
           return {
             seccionDeRespuestas: Object.values(data.seccionesRespuestas),
             // respuestasAutoEvaluacion: Object.values(data.seccionesRespuestas.autoEvaluacion.respuestas),
-            // respuestasCondiciones: Object.values(data.seccionesRespuestas.condiciones.respuestas),
+            respuestasObservaciones: Object.values(data.seccionesRespuestas.observaciones.respuestas),
           };
         } else {
           return {
             // respuestasAutoEvaluacion: [],
-            // respuestasCondiciones: [],
+            respuestasObservaciones: [],
             seccionDeRespuestas: [],
           };
         }
     };
+    
+    console.log(respuestas().respuestasObservaciones)
+    const ordenarSegunIndex = (arreglo) => {
+        return arreglo.sort((a, b) => {
+            return a.index - b.index;
+        });
+    };
     const resultado = respuestas();    
-    console.log(resultado)
+    const resultadoOrdenado = ordenarSegunIndex(resultado.seccionDeRespuestas);
+    // console.log(resultadoOrdenado);
     
   return (
     <>
@@ -56,9 +64,9 @@ export const KinRossLayout = () => {
                 </div>
                 <div className="h-24 border">
                     <div className="grid grid-rows-1 h-full text-center w-full items-center">
-                        <h2 style={{ fontSize: "8pt" }}>SISTEMA DE GESTION S&SO-MDO</h2> 
-                        <h1 className='font-bold' style={{ fontSize: "15pt" }}> Check List Camionetas</h1> 
-                        <h2 style={{ fontSize: "11pt" }}>(DIARIO)</h2> 
+                        <h2 style={{ fontSize: "8pt" }} className="mt-4">SISTEMA DE GESTION S&SO-MDO</h2> 
+                        <h1 className='font-bold mb-1' style={{ fontSize: "15pt" }}> Check List Camionetas</h1> 
+                        <h2 style={{ fontSize: "11pt" }} className="mb-2">(DIARIO)</h2> 
 
                     </div>
                 </div>
@@ -116,7 +124,7 @@ export const KinRossLayout = () => {
                         <th className='border border-black w-2/12 bg-primaryColorKinRoss text-white'>AREA</th>
                         <th className='border w-2/12'> {encabezado.areaTrabajo} </th>
                         <th className='border border-black w-2/12 bg-primaryColorKinRoss text-white'>FECHA</th>
-                        <th className='border w-2/12'> {fechaCreacion} </th>
+                        <th className='border w-2/12'> {fechaCreacion.split(" ")[0]} </th>
                         <th className='border border-black w-2/12 bg-primaryColorKinRoss text-white'>PATENTE</th>
                         <th className='border w-2/12'> {encabezado.vehiculo.patente} </th>
                     </tr>
@@ -130,103 +138,118 @@ export const KinRossLayout = () => {
                         <th className='w-1/2 border border-black text-white bg-primaryColorKinRoss'>Conductor</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody >
                     <tr>
                         <td className='border'>Nombre</td>
-                        <td className='border'> </td>
+                        <td className='border text-center font-normal'> {validadoPor.displayName} </td>
                     </tr>
                     <tr>
                         <td className='border'>Kilometraje inicial</td>
-                        <td className='border'> </td>
+                        <td className='border text-center font-normal'> {encabezado.kilometraje} </td>
                     </tr>
                     <tr>
                         <td className='border'>Hora inicio</td>
-                        <td className='border'></td>
+                        <td className='border text-center font-normal'> {fechaCreacion.split(" ")[1]} </td>
                     </tr>
                     <tr>
                         <td className='border'>Hora Termino</td>
-                        <td className='border'></td>
+                        <td className='border text-center font-normal'></td>
                     </tr>
                     <tr>
                         <td className='border'>Firma del conductor</td>
-                        <td className='border'></td>
+                        <td className='border text-center font-normal'></td>
                     </tr>
                     
                 </tbody>
             </table>
 
-            {resultado.seccionDeRespuestas.map((unidad, index) => (  
-        
-            <div key={index}>
-                <div className='flex justify-center bg-secondaryColorKinRoss' style={{ fontSize: "7pt" }} >
-                    <h1 className='text-center font-bold p-1 text-white'  htmlFor="actividad"  >{unidad.nombre}</h1>
-                </div>  
-                <table className='w-full font-bold' style={{ fontSize: "11pt" }} >
-                    <thead>
-                        <tr className='border border-black text-white bg-primaryColorKinRoss'>
-                            <th >N°</th>
-                            <th>Item a Revisar</th>
-                            <th className='w-1/12'>Si</th>
-                            <th className='w-1/12'>No</th>
-                            <th className='w-1/12'>N/A</th>
-                            <th>Comentarios</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    {Object.values(unidad.respuestas).map((pregunta, index) => (
-                        <tr className='border' key={index}>
-                            <td className='border text-center'>{index+1}</td>
-                            <td className='border font-normal'>{pregunta.contenido}</td>
-                            {( pregunta.tipo && pregunta.tipo.opciones )  ? (
-                                (pregunta.tipo.opciones.o1 ) ? (
+            {resultadoOrdenado.map((unidad, index) => (             
+                unidad.nombre !== "Observaciones" ? (                    
+                <div key={index}>
+                    <div className='flex justify-center bg-secondaryColorKinRoss' style={{ fontSize: "7pt" }} >
+                        <h1 className='text-center font-bold p-1 text-white'  htmlFor="actividad"  > {unidad.index}. {unidad.nombre}</h1>
+                    </div>  
+                    <table className='w-full font-bold' style={{ fontSize: "11pt" }} >
+                        <thead>
+                            <tr className='border border-black text-white bg-primaryColorKinRoss'>
+                                <th >N°</th>
+                                <th>Item a Revisar</th>
+                                <th className='w-1/12'>Si</th>
+                                <th className='w-1/12'>No</th>
+                                <th className='w-1/12'>N/A</th>
+                                <th>Comentarios</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        {Object.values(unidad.respuestas).map((pregunta, index) => (
+                            <tr className='border' key={index}>
+                                <td className='border text-center'>{index+1}</td>
+                                <td className='border font-normal'>{pregunta.contenido}</td>
+                                {( pregunta.tipo && pregunta.tipo.opciones )  ? (
+                                    (pregunta.tipo.opciones.o1 ) ? (
+                                        <React.Fragment>
+                                        <td className='border text-center'>X</td>
+                                        <td className='border'></td>
+                                        <td className='border'></td>
+                                        <td className='border'> {pregunta.observacion} </td>
+                                        </React.Fragment>
+                                        
+                                    ) : (pregunta.tipo.opciones.o2 ) ? (
+                                        <React.Fragment>
+                                        <td className='border'></td>
+                                        <td className='border text-center'>X</td>
+                                        <td className='border'></td>
+                                        <td className='border'> {pregunta.observacion} </td>
+                                        </React.Fragment>
+                                    ) : (pregunta.tipo.opciones.o3 ) ? (
+                                        <React.Fragment>
+                                        <td className='border'></td>
+                                        <td className='border'></td>
+                                        <td className='border text-center'>X</td>
+                                        <td className='border'> {pregunta.observacion} </td>
+                                        </React.Fragment>
+                                    ) : (
+                                        <React.Fragment>
+                                        <td className='border'></td>
+                                        <td className='border'></td>
+                                        <td className='border'></td>
+                                        <td className='border'></td>
+                                        </React.Fragment>                
+                                    )                                
+                                ) : (
                                     <React.Fragment>
-                                    <td className='border text-center'>X</td>
+                                    <td className='border'> </td>
+                                    <td className='border'></td>
                                     <td className='border'></td>
                                     <td className='border'></td>
                                     </React.Fragment>
                                     
-                                ) : (pregunta.tipo.opciones.o2 ) ? (
-                                    <React.Fragment>
-                                    <td className='border'></td>
-                                    <td className='border text-center'>X</td>
-                                    <td className='border'></td>
-                                    </React.Fragment>
-                                ) : (pregunta.tipo.opciones.o3 ) ? (
-                                    <React.Fragment>
-                                    <td className='border'></td>
-                                    <td className='border'></td>
-                                    <td className='border text-center'>X</td>
-                                    </React.Fragment>
-                                ) : (
-                                    <React.Fragment>
-                                    <td className='border'></td>
-                                    <td className='border'></td>
-                                    <td className='border'></td>
-                                    </React.Fragment>                
-                                )                                
-                            ) : (
-                                <React.Fragment>
-                                <td className='border'> </td>
-                                <td className='border'></td>
-                                <td className='border'></td>
-                                </React.Fragment>
-                                
-                            )}           
-                            <td></td>           
-                        </tr>
-                    ))}          
-                    </tbody>                
-                </table>                    
-            </div>            
+                                )}           
+                                {/* <td></td>            */}
+                            </tr>
+                        ))}          
+                        </tbody>                
+                    </table>                    
+                </div>            
+                ): null
             ))}           
 
             <div className='border mt-3'>                
                 <div className='bg-secondaryColorKinRoss border-b text-white'> 
                     Observaciones
                 </div>
-                <div className='h-20 ' >
-                    
-                </div>
+                {respuestas().respuestasObservaciones.map((preg, index) =>(                
+                    <div className='p-1 flex' key={index} >
+                    {preg.imagenes && Object.values(preg.imagenes).map((imagen, i) => (
+                        <div key={i} className=" p-1 float-left w-4/12"> 
+                            <div className='bg-primaryColorKinRoss border'>
+                                <h1 className='text-center'>{preg.contenido} </h1>
+                            </div>                       
+                            <img className=''  src={imagen.url} />
+                        </div>
+                    ))}
+                    </div>
+                ))}
             </div>
 
             <div className='p-1 mt-2 text-white bg-primaryColorKinRoss border' style={{ fontSize: "11pt" }}>

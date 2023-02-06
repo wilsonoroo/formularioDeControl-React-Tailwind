@@ -5,7 +5,7 @@ module.exports = {
     colors:{
       primaryColorKinRoss: "#0070c0",
       secondaryColorKinRoss: "#262626",
-      // tertiaryColorKinRoss: "#262626",
+      tertiaryColorKinRoss: "#262626",
       white: "#ffffff",
       black: "#000000",
       // text: {

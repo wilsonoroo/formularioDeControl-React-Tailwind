@@ -1,0 +1,2435 @@
+{
+  "checklist": {
+    "abreviatura": "LV",
+    "categoria": "vehiculo_liviano",
+    "configuracion": {
+      "cantidadMaximaFotos": 3,
+      "needPlanDeAccion": true,
+      "needValidacion": true,
+      "validacionGlobal": true
+    },
+    "descripcion": "La lista de verificación corresponde a una revisión rápida del vehículo liviano, basado en que el vehículo se encuentra bajo un programa de mantención previamente establecido.",
+    "empresa": "Kinross",
+    "faena": "Kinross",
+    "icono": "aiwdkaokpwdk",
+    "id": "kinross-checklist-vehiculo_liviano-a-1",
+    "instruccion": "",
+    "nombre": "Vehículo Liviano",
+    "secciones": {
+      "autoEvaluacion": {
+        "id": "autoEvaluacion",
+        "index": 1,
+        "instruccion": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "nombre": "Auto Evaluación del Operador",
+        "preguntas": {
+          "p1": {
+            "contenido": "Cumplo con descanso suficiente y condiciones para manejo seguro.",
+            "id": "p1",
+            "index": 1,
+            "isRequired": true,
+            "seccionId": "autoEvaluacion",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p2": {
+            "contenido": "Cumplo con condiciones físicas adecuadas o no tengo dolencias o enfermedades que me impidan conducir.",
+            "id": "p2",
+            "index": 2,
+            "isRequired": true,
+            "seccionId": "autoEvaluacion",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p3": {
+            "contenido": "Estoy conciente de mi responsabilidad al conducir. Sin poner en riesgo mi integridad ni la de mis compañeros o de patrimonio de la empresa.",
+            "id": "p3",
+            "index": 3,
+            "isRequired": true,
+            "seccionId": "autoEvaluacion",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        }
+      },
+      "condiciones": {
+        "id": "condiciones",
+        "index": 4,
+        "instruccion": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "nombre": "Condiciones para requisitos complementarios",
+        "preguntas": {
+          "p16": {
+            "contenido": "Orden y Aseo (interior vehículo y pick up).",
+            "id": "p16",
+            "index": 16,
+            "isRequired": true,
+            "seccionId": "condiciones",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p17": {
+            "contenido": "Estado de carrocería, parachoques, portalón).",
+            "id": "p17",
+            "index": 17,
+            "isRequired": true,
+            "seccionId": "condiciones",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p18": {
+            "contenido": "Gata y llave de rueda disponible.",
+            "id": "p18",
+            "index": 18,
+            "isRequired": true,
+            "seccionId": "condiciones",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p19": {
+            "contenido": "Vidrios y parabrisas limpios.",
+            "id": "p19",
+            "index": 19,
+            "isRequired": true,
+            "seccionId": "condiciones",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p20": {
+            "contenido": "Limpiaparabrisas funciona correctamente.",
+            "id": "p20",
+            "index": 20,
+            "isRequired": true,
+            "seccionId": "condiciones",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p21": {
+            "contenido": "Radio Base funciona en todos los canales.",
+            "id": "p21",
+            "index": 21,
+            "isRequired": true,
+            "seccionId": "condiciones",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        }
+      },
+      "documentacion": {
+        "id": "documentacion",
+        "index": 5,
+        "instruccion": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "nombre": "Documentación",
+        "preguntas": {
+          "p22": {
+            "contenido": "Permiso de Circulacion.",
+            "id": "p22",
+            "index": 22,
+            "isRequired": true,
+            "seccionId": "documentacion",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p23": {
+            "contenido": "Revisión Técnica.",
+            "id": "p23",
+            "index": 23,
+            "isRequired": true,
+            "seccionId": "documentacion",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p24": {
+            "contenido": "Seguro Obligatorio.",
+            "id": "p24",
+            "index": 24,
+            "isRequired": true,
+            "seccionId": "documentacion",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        }
+      },
+      "documentacionOperador": {
+        "id": "documentacionOperador",
+        "index": 2,
+        "instruccion": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "nombre": "Documentación del Operador",
+        "preguntas": {
+          "p4": {
+            "contenido": "Licencia Municipal.",
+            "id": "p4",
+            "index": 4,
+            "isRequired": true,
+            "seccionId": "documentacionOperador",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p5": {
+            "contenido": "Licencia Interna de Faena.",
+            "id": "p5",
+            "index": 5,
+            "isRequired": true,
+            "seccionId": "documentacionOperador",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        }
+      },
+      "observaciones": {
+        "id": "observaciones",
+        "index": 6,
+        "instruccion": "Señala de acuerdo al lado del vehículo, algún detalle u observación.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "nombre": "Observaciones",
+        "preguntas": {
+          "p25": {
+            "contenido": "Lado Pasajero",
+            "id": "p25",
+            "index": 25,
+            "isRequired": false,
+            "seccionId": "observaciones",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o1",
+                  "isMalo": true,
+                  "label": "Lado Pasajero",
+                  "urlImagen": "assets/images/inputs/radio-observaciones/camioneta/camioneta_piloto.png",
+                  "valor": "Se"
+                }
+              },
+              "type": "type_radio_vehiculo"
+            },
+            "tipoPregunta": "observaciones",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p26": {
+            "contenido": "Lado Frontal",
+            "id": "p26",
+            "index": 26,
+            "isRequired": false,
+            "seccionId": "observaciones",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o1",
+                  "isMalo": true,
+                  "label": "Lado Frontal",
+                  "urlImagen": "assets/images/inputs/radio-observaciones/camioneta/camioneta_frontal.png",
+                  "valor": "Se"
+                }
+              },
+              "type": "type_radio_vehiculo"
+            },
+            "tipoPregunta": "observaciones",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p27": {
+            "contenido": "Lado Piloto",
+            "id": "p27",
+            "index": 27,
+            "isRequired": false,
+            "seccionId": "observaciones",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o1",
+                  "isMalo": true,
+                  "label": "Lado Frontal",
+                  "urlImagen": "assets/images/inputs/radio-observaciones/camioneta/camioneta_piloto.png",
+                  "valor": "Se"
+                }
+              },
+              "type": "type_radio_vehiculo"
+            },
+            "tipoPregunta": "observaciones",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p28": {
+            "contenido": "Lado Trasero",
+            "id": "p28",
+            "index": 28,
+            "isRequired": false,
+            "seccionId": "observaciones",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o1",
+                  "isMalo": true,
+                  "label": "Lado Frontal",
+                  "urlImagen": "assets/images/inputs/radio-observaciones/camioneta/camioneta_trasera.png",
+                  "valor": "Se"
+                }
+              },
+              "type": "type_radio_vehiculo"
+            },
+            "tipoPregunta": "observaciones",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        }
+      },
+      "requisitos": {
+        "id": "requisitos",
+        "index": 3,
+        "instruccion": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "nombre": "Requisitos",
+        "preguntas": {
+          "p10": {
+            "contenido": "Cuñas de seguridad disponibles (2).",
+            "id": "p10",
+            "index": 10,
+            "isRequired": true,
+            "seccionId": "requisitos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p11": {
+            "contenido": "Espejos interior y exterior en condiciones y limpios.",
+            "id": "p11",
+            "index": 11,
+            "isRequired": true,
+            "seccionId": "requisitos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p12": {
+            "contenido": "Frenos (incluye freno de mano) en condiciones operativas.",
+            "id": "p12",
+            "index": 12,
+            "isRequired": true,
+            "seccionId": "requisitos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p13": {
+            "contenido": "Neumáticos en buen estado (Incluye dos repuestos).",
+            "id": "p13",
+            "index": 13,
+            "isRequired": true,
+            "seccionId": "requisitos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p14": {
+            "contenido": "Luces (Altas, Bajas, Frenos, Informantes, retroceso).",
+            "id": "p14",
+            "index": 14,
+            "isRequired": true,
+            "seccionId": "requisitos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p15": {
+            "contenido": "Sello de caja de operación invierno en buenas condiciones.",
+            "id": "p15",
+            "index": 15,
+            "isRequired": true,
+            "seccionId": "requisitos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p6": {
+            "contenido": "Aire acondicionado / calefacción.",
+            "id": "p6",
+            "index": 6,
+            "isRequired": true,
+            "seccionId": "requisitos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p7": {
+            "contenido": "Baliza y pertiga (funcionando y en condiciones).",
+            "id": "p7",
+            "index": 7,
+            "isRequired": true,
+            "seccionId": "requisitos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p8": {
+            "contenido": "Brocha en buen estado.",
+            "id": "p8",
+            "index": 8,
+            "isRequired": true,
+            "seccionId": "requisitos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p9": {
+            "contenido": "Cinturones de seguridad en buen estado.",
+            "id": "p9",
+            "index": 9,
+            "isRequired": true,
+            "seccionId": "requisitos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "NA",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        }
+      }
+    },
+    "tag": "check_vehiculo_liviano_vaku",
+    "tipo": "checklist"
+  },
+  "correlativo": "VAKU-0032",
+  "emisor": {
+    "areaCargo": "Antofagasta",
+    "cargo": "Administrador",
+    "codigo": "1234",
+    "cuadrilla": [
+      {
+        "id": "5cywYb5tqof85KI2OF80GcsxmDSD",
+        "nombre": "cuadrilla-1"
+      },
+      {
+        "id": "5cywYb5tqof85KI2OF80GcsxmDSY",
+        "nombre": "cuadrilla-2"
+      },
+      {
+        "id": "5cywYb5tqof85KI2OF80GcsxmDSY",
+        "nombre": "Cuadrilla C"
+      }
+    ],
+    "displayName": "Victor Varas",
+    "dispositivos": {
+      "cLRKGB1KRT2nXB1oPrlExF:APA91bFIqTDnJp944oE8aMtKnKlYZ_8z-rWqi7RPKYMaGp6EeUZ3O2hXMTqdG8msbUC9c5hktQqxoXtdKhSZHkQQVghNsjLm_b4I93nyhRw9SWZmdxOLC-59UMZ21Nk1UW6wf_Ic64rx": {
+        "createdAt": "2023-01-30 15:05:12",
+        "id": "cLRKGB1KRT2nXB1oPrlExF:APA91bFIqTDnJp944oE8aMtKnKlYZ_8z-rWqi7RPKYMaGp6EeUZ3O2hXMTqdG8msbUC9c5hktQqxoXtdKhSZHkQQVghNsjLm_b4I93nyhRw9SWZmdxOLC-59UMZ21Nk1UW6wf_Ic64rx",
+        "os": "android",
+        "token": "cLRKGB1KRT2nXB1oPrlExF:APA91bFIqTDnJp944oE8aMtKnKlYZ_8z-rWqi7RPKYMaGp6EeUZ3O2hXMTqdG8msbUC9c5hktQqxoXtdKhSZHkQQVghNsjLm_b4I93nyhRw9SWZmdxOLC-59UMZ21Nk1UW6wf_Ic64rx"
+      },
+      "dOQhsOazRjO27wL3rwQtJj:APA91bGip6ihgWSG5WJmKl-68Ume18WJro7NWfPeglqTBQp5qUxhy8pr-x-oiTu3HaplRyjsbzDrAXhOImhCujOQrxmTYq0Glj_HXMISAdT3MGEgo31sgZ0oVIZFU1nkwiATrgk88jEX": {
+        "createdAt": "2023-01-30 13:00:23",
+        "id": "dOQhsOazRjO27wL3rwQtJj:APA91bGip6ihgWSG5WJmKl-68Ume18WJro7NWfPeglqTBQp5qUxhy8pr-x-oiTu3HaplRyjsbzDrAXhOImhCujOQrxmTYq0Glj_HXMISAdT3MGEgo31sgZ0oVIZFU1nkwiATrgk88jEX",
+        "os": "android",
+        "token": "dOQhsOazRjO27wL3rwQtJj:APA91bGip6ihgWSG5WJmKl-68Ume18WJro7NWfPeglqTBQp5qUxhy8pr-x-oiTu3HaplRyjsbzDrAXhOImhCujOQrxmTYq0Glj_HXMISAdT3MGEgo31sgZ0oVIZFU1nkwiATrgk88jEX"
+      },
+      "dujvvBM_QLaUb98ZmEcXse:APA91bGxB5ttTTJb45TCKW4hAQVh7-VguGAWcuMNcHnNjR61xWeY9VRpHbRe51ienWYcsaoM6qGbSE5_iJYpnlUQRaZ4XQPohlUZ1GuciImpqZJ1B8CGgVUwA2VkhHCKZXm5FMmlUORv": {
+        "createdAt": "2023-01-31 19:51:01",
+        "id": "dujvvBM_QLaUb98ZmEcXse:APA91bGxB5ttTTJb45TCKW4hAQVh7-VguGAWcuMNcHnNjR61xWeY9VRpHbRe51ienWYcsaoM6qGbSE5_iJYpnlUQRaZ4XQPohlUZ1GuciImpqZJ1B8CGgVUwA2VkhHCKZXm5FMmlUORv",
+        "os": "android",
+        "token": "dujvvBM_QLaUb98ZmEcXse:APA91bGxB5ttTTJb45TCKW4hAQVh7-VguGAWcuMNcHnNjR61xWeY9VRpHbRe51ienWYcsaoM6qGbSE5_iJYpnlUQRaZ4XQPohlUZ1GuciImpqZJ1B8CGgVUwA2VkhHCKZXm5FMmlUORv"
+      },
+      "fccwL_XpQT2xwMQXBcBkcG:APA91bHxxpHE3PKo5jG9gx2zR3FbM0-gZR0uNG8s6PT6mVdeAB_BYA-y7nozNRnl590frQgXdcwkKp2V1VBT2AHgi3G7Kl2Y5tw2d90AquCMx409xRPsOnN1OJ14iJqe3gXAhERnZjuc": {
+        "createdAt": "2023-01-29 17:23:30",
+        "id": "fccwL_XpQT2xwMQXBcBkcG:APA91bHxxpHE3PKo5jG9gx2zR3FbM0-gZR0uNG8s6PT6mVdeAB_BYA-y7nozNRnl590frQgXdcwkKp2V1VBT2AHgi3G7Kl2Y5tw2d90AquCMx409xRPsOnN1OJ14iJqe3gXAhERnZjuc",
+        "os": "android",
+        "token": "fccwL_XpQT2xwMQXBcBkcG:APA91bHxxpHE3PKo5jG9gx2zR3FbM0-gZR0uNG8s6PT6mVdeAB_BYA-y7nozNRnl590frQgXdcwkKp2V1VBT2AHgi3G7Kl2Y5tw2d90AquCMx409xRPsOnN1OJ14iJqe3gXAhERnZjuc"
+      }
+    },
+    "email": "victor@somti.cl",
+    "empresa": "VAKU VENTAS",
+    "empresaId": "VAKU",
+    "fechaVencimientoLicencia": "2022-10-14 12:55:14.00",
+    "fotografia": {
+      "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/somti_venta%2Fimages%2Fvictor.png?alt=media"
+    },
+    "id": "qnQonIl9RBXNUaw8PtJxQvei4S93",
+    "isEliminado": false,
+    "licencia": "Si",
+    "permisos": {
+      "administrador": {
+        "codigo": "desconocido",
+        "displayName": "Administrador",
+        "id": "administrador"
+      },
+      "creador_checklist": {
+        "codigo": "creador_checklist",
+        "displayName": "Creador de Checklist",
+        "id": "creador_checklist"
+      },
+      "creador_is": {
+        "codigo": "creador_is",
+        "displayName": "Creador de IS",
+        "id": "creador_is"
+      },
+      "planificador": {
+        "codigo": "planificador",
+        "displayName": "Planificador",
+        "id": "planificador"
+      },
+      "responsable": {
+        "codigo": "responsable",
+        "displayName": "Responsable",
+        "id": "responsable"
+      },
+      "validador": {
+        "codigo": "validador",
+        "displayName": "Validador",
+        "id": "validador"
+      }
+    },
+    "rol": {
+      "displayName": "Administrador",
+      "nombre": "administrador"
+    },
+    "rut": "12345678-9",
+    "sexo": "masculino",
+    "turno": "Turno A Noche"
+  },
+  "encabezado": {
+    "areaTrabajo": "TLS (Tranque Laguna Seca)",
+    "kilometraje": "2580",
+    "lugarFaena": "Kinross",
+    "tipoVehiculo": "Camioneta",
+    "vehiculo": {
+      "complementos": [
+        {
+          "displayName": "Semiremolque Caja Seca",
+          "docPath": "checklist/transportes_de_carga/children/transportes_fox-checklist-transportes_de_carga-semirremolque-a-1",
+          "numeroInterno": "120k0k32",
+          "patente": "AD-AD-13"
+        }
+      ],
+      "fechaVencimiento": "2022-11-18 22:29:30",
+      "id": "289ae2ed-9575-45ff-ac74-8e3e52d5a19a",
+      "isEliminado": false,
+      "isServicio": true,
+      "kilometraje": "677667",
+      "marca": "oxford",
+      "modelo": "haily",
+      "numeroInterno": "numero1",
+      "patente": "AA-AA-01",
+      "proximaMantencion": "2022-12-03 22:29:35",
+      "tipoVehiculo": "camioneta",
+      "ultimaMantencion": "2022-12-01 22:29:32"
+    }
+  },
+  "estado": "finalizado_sin_plan_accion",
+  "fechaCreacion": "2023-02-06 00:23:42",
+  "fechaSubida": "2023-02-06 00:23:32",
+  "fechaValidacion": "2023-02-06 00:26:00",
+  "id": "ecb865aa57",
+  "isPlanDeAccion": false,
+  "pdf": {
+    "id": "ba4f0c2d-8268-4766-b903-880fb21fda1f",
+    "name": "ba4f0c2d-8268-4766-b903-880fb21fda1f",
+    "path": "VAKU/pdf/ba4f0c2d-8268-4766-b903-880fb21fda1f",
+    "size": 47263869,
+    "token": "0507523e-3924-4ffc-b193-f0802d03a7d1",
+    "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fpdf%2Fba4f0c2d-8268-4766-b903-880fb21fda1f?alt=media&token=0507523e-3924-4ffc-b193-f0802d03a7d1"
+  },
+  "respuestasMalas": {
+    "p10": {
+      "contenido": "Cuñas de seguridad disponibles (2).",
+      "id": "p10",
+      "imagenes": {
+        "1ea3f03a6b": {
+          "id": "1ea3f03a6b",
+          "mimeType": "image/jpeg",
+          "name": "scaled_252e625c-b19b-4a19-bf1c-300cfcb582bb3525832990640660520.jpg",
+          "path": "VAKU/images/scaled_252e625c-b19b-4a19-bf1c-300cfcb582bb3525832990640660520.jpg",
+          "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fscaled_252e625c-b19b-4a19-bf1c-300cfcb582bb3525832990640660520.jpg?alt=media&token=cc0be4f0-946e-47e1-a542-a03b4af56419"
+        },
+        "e9045e161d": {
+          "id": "e9045e161d",
+          "mimeType": "image/jpeg",
+          "name": "scaled_88de33aa-879e-4fd9-b0b0-e529c400ebda8129528219236509199.jpg",
+          "path": "VAKU/images/scaled_88de33aa-879e-4fd9-b0b0-e529c400ebda8129528219236509199.jpg",
+          "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fscaled_88de33aa-879e-4fd9-b0b0-e529c400ebda8129528219236509199.jpg?alt=media&token=a095469a-0fc3-4363-8704-3d6238db9a89"
+        }
+      },
+      "index": 10,
+      "isRequired": true,
+      "observacion": "sjjsksk",
+      "seccionId": "requisitos",
+      "tipo": {
+        "opciones": {
+          "o2": {
+            "color": "rojo",
+            "enableComentario": false,
+            "enableUploadFoto": true,
+            "id": "o2",
+            "isMalo": true,
+            "label": "N",
+            "urlImagen": "",
+            "valor": "N"
+          }
+        },
+        "type": "type_radio_a"
+      },
+      "tipoPregunta": "Sí-No-N/A",
+      "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+    },
+    "p24": {
+      "contenido": "Seguro Obligatorio.",
+      "id": "p24",
+      "index": 24,
+      "isRequired": true,
+      "observacion": "aaaa",
+      "seccionId": "documentacion",
+      "tipo": {
+        "opciones": {
+          "o2": {
+            "color": "rojo",
+            "enableComentario": false,
+            "enableUploadFoto": true,
+            "id": "o2",
+            "isMalo": true,
+            "label": "N",
+            "urlImagen": "",
+            "valor": "N"
+          }
+        },
+        "type": "type_radio_a"
+      },
+      "tipoPregunta": "Sí-No-N/A",
+      "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+    },
+    "p26": {
+      "contenido": "Lado Frontal",
+      "id": "p26",
+      "imagenes": {
+        "30ea090b06": {
+          "id": "30ea090b06",
+          "mimeType": "image/jpeg",
+          "name": "scaled_45d5820a-53fd-42b9-a3bb-5f3acb59ec0d1933022301138941847.jpg",
+          "path": "VAKU/images/scaled_45d5820a-53fd-42b9-a3bb-5f3acb59ec0d1933022301138941847.jpg",
+          "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fscaled_45d5820a-53fd-42b9-a3bb-5f3acb59ec0d1933022301138941847.jpg?alt=media&token=aab30298-e576-4ca2-9853-4d62bd8fa8ac"
+        },
+        "8a173132c7": {
+          "id": "8a173132c7",
+          "mimeType": "image/jpeg",
+          "name": "scaled_10045cd6-c9be-4a7a-8b7c-7868682d1b998765590522983591938.jpg",
+          "path": "VAKU/images/scaled_10045cd6-c9be-4a7a-8b7c-7868682d1b998765590522983591938.jpg",
+          "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fscaled_10045cd6-c9be-4a7a-8b7c-7868682d1b998765590522983591938.jpg?alt=media&token=8bdaad8a-ddfa-4f62-a5a0-a988a413a5a0"
+        }
+      },
+      "index": 26,
+      "isRequired": false,
+      "observacion": "lado frontal",
+      "seccionId": "observaciones",
+      "tipo": {
+        "opciones": {
+          "o1": {
+            "color": "rojo",
+            "enableComentario": false,
+            "enableUploadFoto": true,
+            "id": "o1",
+            "isMalo": true,
+            "label": "Lado Frontal",
+            "urlImagen": "assets/images/inputs/radio-observaciones/camioneta/camioneta_frontal.png",
+            "valor": "Se"
+          }
+        },
+        "type": "type_radio_vehiculo"
+      },
+      "tipoPregunta": "observaciones",
+      "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+    },
+    "p27": {
+      "contenido": "Lado Piloto",
+      "id": "p27",
+      "index": 27,
+      "isRequired": false,
+      "observacion": "lado piloto",
+      "seccionId": "observaciones",
+      "tipo": {
+        "opciones": {
+          "o1": {
+            "color": "rojo",
+            "enableComentario": false,
+            "enableUploadFoto": true,
+            "id": "o1",
+            "isMalo": true,
+            "label": "Lado Frontal",
+            "urlImagen": "assets/images/inputs/radio-observaciones/camioneta/camioneta_piloto.png",
+            "valor": "Se"
+          }
+        },
+        "type": "type_radio_vehiculo"
+      },
+      "tipoPregunta": "observaciones",
+      "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+    },
+    "p4": {
+      "contenido": "Licencia Municipal.",
+      "id": "p4",
+      "imagenes": {
+        "b93ed2b52e": {
+          "id": "b93ed2b52e",
+          "mimeType": "image/jpeg",
+          "name": "scaled_c112bcdd-de23-4927-932d-9e8b48f2c93c4049124182477567664.jpg",
+          "path": "VAKU/images/scaled_c112bcdd-de23-4927-932d-9e8b48f2c93c4049124182477567664.jpg",
+          "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fscaled_c112bcdd-de23-4927-932d-9e8b48f2c93c4049124182477567664.jpg?alt=media&token=57b5c8d2-8284-4bc1-a698-aae73e062ea4"
+        },
+        "e960f621b4": {
+          "id": "e960f621b4",
+          "mimeType": "image/jpeg",
+          "name": "scaled_6511316e-df9f-4f01-9f00-20635a54099f9088234438042346082.jpg",
+          "path": "VAKU/images/scaled_6511316e-df9f-4f01-9f00-20635a54099f9088234438042346082.jpg",
+          "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fscaled_6511316e-df9f-4f01-9f00-20635a54099f9088234438042346082.jpg?alt=media&token=15eb21a4-1893-41c2-b8d4-049782e9d254"
+        }
+      },
+      "index": 4,
+      "isRequired": true,
+      "observacion": "wjisis",
+      "seccionId": "documentacionOperador",
+      "tipo": {
+        "opciones": {
+          "o2": {
+            "color": "rojo",
+            "enableComentario": false,
+            "enableUploadFoto": true,
+            "id": "o2",
+            "isMalo": true,
+            "label": "N",
+            "urlImagen": "",
+            "valor": "N"
+          }
+        },
+        "type": "type_radio_a"
+      },
+      "tipoPregunta": "Sí-No-N/A",
+      "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+    }
+  },
+  "seccionesRespuestas": {
+    "autoEvaluacion": {
+      "id": "autoEvaluacion",
+      "index": 1,
+      "instruccion": "Auto Evaluación del Operador",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "nombre": "Auto Evaluación del Operador",
+      "respuestas": {
+        "p1": {
+          "contenido": "Cumplo con descanso suficiente y condiciones para manejo seguro.",
+          "id": "p1",
+          "index": 1,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "autoEvaluacion",
+          "tipo": {
+            "opciones": {
+              "o3": {
+                "color": "amarillo",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o3",
+                "isMalo": false,
+                "label": "NA",
+                "urlImagen": "",
+                "valor": "NA"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p2": {
+          "contenido": "Cumplo con condiciones físicas adecuadas o no tengo dolencias o enfermedades que me impidan conducir.",
+          "id": "p2",
+          "index": 2,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "autoEvaluacion",
+          "tipo": {
+            "opciones": {
+              "o3": {
+                "color": "amarillo",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o3",
+                "isMalo": false,
+                "label": "NA",
+                "urlImagen": "",
+                "valor": "NA"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p3": {
+          "contenido": "Estoy conciente de mi responsabilidad al conducir. Sin poner en riesgo mi integridad ni la de mis compañeros o de patrimonio de la empresa.",
+          "id": "p3",
+          "index": 3,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "autoEvaluacion",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      }
+    },
+    "condiciones": {
+      "id": "condiciones",
+      "index": 4,
+      "instruccion": "Condiciones para requisitos complementarios",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "nombre": "Condiciones para requisitos complementarios",
+      "respuestas": {
+        "p16": {
+          "contenido": "Orden y Aseo (interior vehículo y pick up).",
+          "id": "p16",
+          "index": 16,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "condiciones",
+          "tipo": {
+            "opciones": {
+              "o3": {
+                "color": "amarillo",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o3",
+                "isMalo": false,
+                "label": "NA",
+                "urlImagen": "",
+                "valor": "NA"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p17": {
+          "contenido": "Estado de carrocería, parachoques, portalón).",
+          "id": "p17",
+          "index": 17,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "condiciones",
+          "tipo": {
+            "opciones": {
+              "o3": {
+                "color": "amarillo",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o3",
+                "isMalo": false,
+                "label": "NA",
+                "urlImagen": "",
+                "valor": "NA"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p18": {
+          "contenido": "Gata y llave de rueda disponible.",
+          "id": "p18",
+          "index": 18,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "condiciones",
+          "tipo": {
+            "opciones": {
+              "o3": {
+                "color": "amarillo",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o3",
+                "isMalo": false,
+                "label": "NA",
+                "urlImagen": "",
+                "valor": "NA"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p19": {
+          "contenido": "Vidrios y parabrisas limpios.",
+          "id": "p19",
+          "index": 19,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "condiciones",
+          "tipo": {
+            "opciones": {
+              "o3": {
+                "color": "amarillo",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o3",
+                "isMalo": false,
+                "label": "NA",
+                "urlImagen": "",
+                "valor": "NA"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p20": {
+          "contenido": "Limpiaparabrisas funciona correctamente.",
+          "id": "p20",
+          "index": 20,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "condiciones",
+          "tipo": {
+            "opciones": {
+              "o3": {
+                "color": "amarillo",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o3",
+                "isMalo": false,
+                "label": "NA",
+                "urlImagen": "",
+                "valor": "NA"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p21": {
+          "contenido": "Radio Base funciona en todos los canales.",
+          "id": "p21",
+          "index": 21,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "condiciones",
+          "tipo": {
+            "opciones": {
+              "o3": {
+                "color": "amarillo",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o3",
+                "isMalo": false,
+                "label": "NA",
+                "urlImagen": "",
+                "valor": "NA"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      }
+    },
+    "documentacion": {
+      "id": "documentacion",
+      "index": 5,
+      "instruccion": "Documentación",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "nombre": "Documentación",
+      "respuestas": {
+        "p22": {
+          "contenido": "Permiso de Circulacion.",
+          "id": "p22",
+          "index": 22,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "documentacion",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p23": {
+          "contenido": "Revisión Técnica.",
+          "id": "p23",
+          "index": 23,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "documentacion",
+          "tipo": {
+            "opciones": {
+              "o3": {
+                "color": "amarillo",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o3",
+                "isMalo": false,
+                "label": "NA",
+                "urlImagen": "",
+                "valor": "NA"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p24": {
+          "contenido": "Seguro Obligatorio.",
+          "id": "p24",
+          "index": 24,
+          "isRequired": true,
+          "observacion": "aaaa",
+          "seccionId": "documentacion",
+          "tipo": {
+            "opciones": {
+              "o2": {
+                "color": "rojo",
+                "enableComentario": false,
+                "enableUploadFoto": true,
+                "id": "o2",
+                "isMalo": true,
+                "label": "N",
+                "urlImagen": "",
+                "valor": "N"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      }
+    },
+    "documentacionOperador": {
+      "id": "documentacionOperador",
+      "index": 2,
+      "instruccion": "Documentación del Operador",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "nombre": "Documentación del Operador",
+      "respuestas": {
+        "p4": {
+          "contenido": "Licencia Municipal.",
+          "id": "p4",
+          "imagenes": {
+            "b93ed2b52e": {
+              "id": "b93ed2b52e",
+              "mimeType": "image/jpeg",
+              "name": "scaled_c112bcdd-de23-4927-932d-9e8b48f2c93c4049124182477567664.jpg",
+              "path": "VAKU/images/scaled_c112bcdd-de23-4927-932d-9e8b48f2c93c4049124182477567664.jpg",
+              "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fscaled_c112bcdd-de23-4927-932d-9e8b48f2c93c4049124182477567664.jpg?alt=media&token=57b5c8d2-8284-4bc1-a698-aae73e062ea4"
+            },
+            "e960f621b4": {
+              "id": "e960f621b4",
+              "mimeType": "image/jpeg",
+              "name": "scaled_6511316e-df9f-4f01-9f00-20635a54099f9088234438042346082.jpg",
+              "path": "VAKU/images/scaled_6511316e-df9f-4f01-9f00-20635a54099f9088234438042346082.jpg",
+              "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fscaled_6511316e-df9f-4f01-9f00-20635a54099f9088234438042346082.jpg?alt=media&token=15eb21a4-1893-41c2-b8d4-049782e9d254"
+            }
+          },
+          "index": 4,
+          "isRequired": true,
+          "observacion": "wjisis",
+          "seccionId": "documentacionOperador",
+          "tipo": {
+            "opciones": {
+              "o2": {
+                "color": "rojo",
+                "enableComentario": false,
+                "enableUploadFoto": true,
+                "id": "o2",
+                "isMalo": true,
+                "label": "N",
+                "urlImagen": "",
+                "valor": "N"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p5": {
+          "contenido": "Licencia Interna de Faena.",
+          "id": "p5",
+          "index": 5,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "documentacionOperador",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      }
+    },
+    "observaciones": {
+      "id": "observaciones",
+      "index": 6,
+      "instruccion": "Observaciones",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "nombre": "Observaciones",
+      "respuestas": {
+        "p25": {
+          "contenido": "Lado Pasajero",
+          "id": "p25",
+          "index": 25,
+          "isRequired": false,
+          "observacion": "",
+          "seccionId": "observaciones",
+          "tipo": {
+            "type": "type_radio_vehiculo"
+          },
+          "tipoPregunta": "observaciones",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p26": {
+          "contenido": "Lado Frontal",
+          "id": "p26",
+          "imagenes": {
+            "30ea090b06": {
+              "id": "30ea090b06",
+              "mimeType": "image/jpeg",
+              "name": "scaled_45d5820a-53fd-42b9-a3bb-5f3acb59ec0d1933022301138941847.jpg",
+              "path": "VAKU/images/scaled_45d5820a-53fd-42b9-a3bb-5f3acb59ec0d1933022301138941847.jpg",
+              "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fscaled_45d5820a-53fd-42b9-a3bb-5f3acb59ec0d1933022301138941847.jpg?alt=media&token=aab30298-e576-4ca2-9853-4d62bd8fa8ac"
+            },
+            "8a173132c7": {
+              "id": "8a173132c7",
+              "mimeType": "image/jpeg",
+              "name": "scaled_10045cd6-c9be-4a7a-8b7c-7868682d1b998765590522983591938.jpg",
+              "path": "VAKU/images/scaled_10045cd6-c9be-4a7a-8b7c-7868682d1b998765590522983591938.jpg",
+              "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fscaled_10045cd6-c9be-4a7a-8b7c-7868682d1b998765590522983591938.jpg?alt=media&token=8bdaad8a-ddfa-4f62-a5a0-a988a413a5a0"
+            }
+          },
+          "index": 26,
+          "isRequired": false,
+          "observacion": "lado frontal",
+          "seccionId": "observaciones",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "rojo",
+                "enableComentario": false,
+                "enableUploadFoto": true,
+                "id": "o1",
+                "isMalo": true,
+                "label": "Lado Frontal",
+                "urlImagen": "assets/images/inputs/radio-observaciones/camioneta/camioneta_frontal.png",
+                "valor": "Se"
+              }
+            },
+            "type": "type_radio_vehiculo"
+          },
+          "tipoPregunta": "observaciones",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p27": {
+          "contenido": "Lado Piloto",
+          "id": "p27",
+          "index": 27,
+          "isRequired": false,
+          "observacion": "lado piloto",
+          "seccionId": "observaciones",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "rojo",
+                "enableComentario": false,
+                "enableUploadFoto": true,
+                "id": "o1",
+                "isMalo": true,
+                "label": "Lado Frontal",
+                "urlImagen": "assets/images/inputs/radio-observaciones/camioneta/camioneta_piloto.png",
+                "valor": "Se"
+              }
+            },
+            "type": "type_radio_vehiculo"
+          },
+          "tipoPregunta": "observaciones",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p28": {
+          "contenido": "Lado Trasero",
+          "id": "p28",
+          "index": 28,
+          "isRequired": false,
+          "observacion": "",
+          "seccionId": "observaciones",
+          "tipo": {
+            "type": "type_radio_vehiculo"
+          },
+          "tipoPregunta": "observaciones",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      }
+    },
+    "requisitos": {
+      "id": "requisitos",
+      "index": 3,
+      "instruccion": "Requisitos",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "nombre": "Requisitos",
+      "respuestas": {
+        "p10": {
+          "contenido": "Cuñas de seguridad disponibles (2).",
+          "id": "p10",
+          "imagenes": {
+            "1ea3f03a6b": {
+              "id": "1ea3f03a6b",
+              "mimeType": "image/jpeg",
+              "name": "scaled_252e625c-b19b-4a19-bf1c-300cfcb582bb3525832990640660520.jpg",
+              "path": "VAKU/images/scaled_252e625c-b19b-4a19-bf1c-300cfcb582bb3525832990640660520.jpg",
+              "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fscaled_252e625c-b19b-4a19-bf1c-300cfcb582bb3525832990640660520.jpg?alt=media&token=cc0be4f0-946e-47e1-a542-a03b4af56419"
+            },
+            "e9045e161d": {
+              "id": "e9045e161d",
+              "mimeType": "image/jpeg",
+              "name": "scaled_88de33aa-879e-4fd9-b0b0-e529c400ebda8129528219236509199.jpg",
+              "path": "VAKU/images/scaled_88de33aa-879e-4fd9-b0b0-e529c400ebda8129528219236509199.jpg",
+              "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fscaled_88de33aa-879e-4fd9-b0b0-e529c400ebda8129528219236509199.jpg?alt=media&token=a095469a-0fc3-4363-8704-3d6238db9a89"
+            }
+          },
+          "index": 10,
+          "isRequired": true,
+          "observacion": "sjjsksk",
+          "seccionId": "requisitos",
+          "tipo": {
+            "opciones": {
+              "o2": {
+                "color": "rojo",
+                "enableComentario": false,
+                "enableUploadFoto": true,
+                "id": "o2",
+                "isMalo": true,
+                "label": "N",
+                "urlImagen": "",
+                "valor": "N"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p11": {
+          "contenido": "Espejos interior y exterior en condiciones y limpios.",
+          "id": "p11",
+          "index": 11,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "requisitos",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p12": {
+          "contenido": "Frenos (incluye freno de mano) en condiciones operativas.",
+          "id": "p12",
+          "index": 12,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "requisitos",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p13": {
+          "contenido": "Neumáticos en buen estado (Incluye dos repuestos).",
+          "id": "p13",
+          "index": 13,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "requisitos",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p14": {
+          "contenido": "Luces (Altas, Bajas, Frenos, Informantes, retroceso).",
+          "id": "p14",
+          "index": 14,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "requisitos",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p15": {
+          "contenido": "Sello de caja de operación invierno en buenas condiciones.",
+          "id": "p15",
+          "index": 15,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "requisitos",
+          "tipo": {
+            "opciones": {
+              "o3": {
+                "color": "amarillo",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o3",
+                "isMalo": false,
+                "label": "NA",
+                "urlImagen": "",
+                "valor": "NA"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p6": {
+          "contenido": "Aire acondicionado / calefacción.",
+          "id": "p6",
+          "index": 6,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "requisitos",
+          "tipo": {
+            "opciones": {
+              "o3": {
+                "color": "amarillo",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o3",
+                "isMalo": false,
+                "label": "NA",
+                "urlImagen": "",
+                "valor": "NA"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p7": {
+          "contenido": "Baliza y pertiga (funcionando y en condiciones).",
+          "id": "p7",
+          "index": 7,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "requisitos",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p8": {
+          "contenido": "Brocha en buen estado.",
+          "id": "p8",
+          "index": 8,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "requisitos",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p9": {
+          "contenido": "Cinturones de seguridad en buen estado.",
+          "id": "p9",
+          "index": 9,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "requisitos",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      }
+    }
+  },
+  "validadoPor": {
+    "areaCargo": "Antofagasta",
+    "cargo": "Administrador",
+    "codigo": "1234",
+    "cuadrilla": [
+      {
+        "id": "5cywYb5tqof85KI2OF80GcsxmDSD",
+        "nombre": "cuadrilla-1"
+      },
+      {
+        "id": "5cywYb5tqof85KI2OF80GcsxmDSY",
+        "nombre": "cuadrilla-2"
+      },
+      {
+        "id": "5cywYb5tqof85KI2OF80GcsxmDSY",
+        "nombre": "Cuadrilla C"
+      }
+    ],
+    "displayName": "Victor Varas",
+    "dispositivos": {
+      "cLRKGB1KRT2nXB1oPrlExF:APA91bFIqTDnJp944oE8aMtKnKlYZ_8z-rWqi7RPKYMaGp6EeUZ3O2hXMTqdG8msbUC9c5hktQqxoXtdKhSZHkQQVghNsjLm_b4I93nyhRw9SWZmdxOLC-59UMZ21Nk1UW6wf_Ic64rx": {
+        "createdAt": "2023-01-30 15:05:12",
+        "id": "cLRKGB1KRT2nXB1oPrlExF:APA91bFIqTDnJp944oE8aMtKnKlYZ_8z-rWqi7RPKYMaGp6EeUZ3O2hXMTqdG8msbUC9c5hktQqxoXtdKhSZHkQQVghNsjLm_b4I93nyhRw9SWZmdxOLC-59UMZ21Nk1UW6wf_Ic64rx",
+        "os": "android",
+        "token": "cLRKGB1KRT2nXB1oPrlExF:APA91bFIqTDnJp944oE8aMtKnKlYZ_8z-rWqi7RPKYMaGp6EeUZ3O2hXMTqdG8msbUC9c5hktQqxoXtdKhSZHkQQVghNsjLm_b4I93nyhRw9SWZmdxOLC-59UMZ21Nk1UW6wf_Ic64rx"
+      },
+      "dOQhsOazRjO27wL3rwQtJj:APA91bGip6ihgWSG5WJmKl-68Ume18WJro7NWfPeglqTBQp5qUxhy8pr-x-oiTu3HaplRyjsbzDrAXhOImhCujOQrxmTYq0Glj_HXMISAdT3MGEgo31sgZ0oVIZFU1nkwiATrgk88jEX": {
+        "createdAt": "2023-01-30 13:00:23",
+        "id": "dOQhsOazRjO27wL3rwQtJj:APA91bGip6ihgWSG5WJmKl-68Ume18WJro7NWfPeglqTBQp5qUxhy8pr-x-oiTu3HaplRyjsbzDrAXhOImhCujOQrxmTYq0Glj_HXMISAdT3MGEgo31sgZ0oVIZFU1nkwiATrgk88jEX",
+        "os": "android",
+        "token": "dOQhsOazRjO27wL3rwQtJj:APA91bGip6ihgWSG5WJmKl-68Ume18WJro7NWfPeglqTBQp5qUxhy8pr-x-oiTu3HaplRyjsbzDrAXhOImhCujOQrxmTYq0Glj_HXMISAdT3MGEgo31sgZ0oVIZFU1nkwiATrgk88jEX"
+      },
+      "dujvvBM_QLaUb98ZmEcXse:APA91bGxB5ttTTJb45TCKW4hAQVh7-VguGAWcuMNcHnNjR61xWeY9VRpHbRe51ienWYcsaoM6qGbSE5_iJYpnlUQRaZ4XQPohlUZ1GuciImpqZJ1B8CGgVUwA2VkhHCKZXm5FMmlUORv": {
+        "createdAt": "2023-01-31 19:51:01",
+        "id": "dujvvBM_QLaUb98ZmEcXse:APA91bGxB5ttTTJb45TCKW4hAQVh7-VguGAWcuMNcHnNjR61xWeY9VRpHbRe51ienWYcsaoM6qGbSE5_iJYpnlUQRaZ4XQPohlUZ1GuciImpqZJ1B8CGgVUwA2VkhHCKZXm5FMmlUORv",
+        "os": "android",
+        "token": "dujvvBM_QLaUb98ZmEcXse:APA91bGxB5ttTTJb45TCKW4hAQVh7-VguGAWcuMNcHnNjR61xWeY9VRpHbRe51ienWYcsaoM6qGbSE5_iJYpnlUQRaZ4XQPohlUZ1GuciImpqZJ1B8CGgVUwA2VkhHCKZXm5FMmlUORv"
+      },
+      "fccwL_XpQT2xwMQXBcBkcG:APA91bHxxpHE3PKo5jG9gx2zR3FbM0-gZR0uNG8s6PT6mVdeAB_BYA-y7nozNRnl590frQgXdcwkKp2V1VBT2AHgi3G7Kl2Y5tw2d90AquCMx409xRPsOnN1OJ14iJqe3gXAhERnZjuc": {
+        "createdAt": "2023-01-29 17:23:30",
+        "id": "fccwL_XpQT2xwMQXBcBkcG:APA91bHxxpHE3PKo5jG9gx2zR3FbM0-gZR0uNG8s6PT6mVdeAB_BYA-y7nozNRnl590frQgXdcwkKp2V1VBT2AHgi3G7Kl2Y5tw2d90AquCMx409xRPsOnN1OJ14iJqe3gXAhERnZjuc",
+        "os": "android",
+        "token": "fccwL_XpQT2xwMQXBcBkcG:APA91bHxxpHE3PKo5jG9gx2zR3FbM0-gZR0uNG8s6PT6mVdeAB_BYA-y7nozNRnl590frQgXdcwkKp2V1VBT2AHgi3G7Kl2Y5tw2d90AquCMx409xRPsOnN1OJ14iJqe3gXAhERnZjuc"
+      }
+    },
+    "email": "victor@somti.cl",
+    "empresa": "VAKU VENTAS",
+    "empresaId": "VAKU",
+    "fechaVencimientoLicencia": "2022-10-14 12:55:14.00",
+    "fotografia": {
+      "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/somti_venta%2Fimages%2Fvictor.png?alt=media"
+    },
+    "id": "qnQonIl9RBXNUaw8PtJxQvei4S93",
+    "isEliminado": false,
+    "licencia": "Si",
+    "permisos": {
+      "administrador": {
+        "codigo": "desconocido",
+        "displayName": "Administrador",
+        "id": "administrador"
+      },
+      "creador_checklist": {
+        "codigo": "creador_checklist",
+        "displayName": "Creador de Checklist",
+        "id": "creador_checklist"
+      },
+      "creador_is": {
+        "codigo": "creador_is",
+        "displayName": "Creador de IS",
+        "id": "creador_is"
+      },
+      "planificador": {
+        "codigo": "planificador",
+        "displayName": "Planificador",
+        "id": "planificador"
+      },
+      "responsable": {
+        "codigo": "responsable",
+        "displayName": "Responsable",
+        "id": "responsable"
+      },
+      "validador": {
+        "codigo": "validador",
+        "displayName": "Validador",
+        "id": "validador"
+      }
+    },
+    "rol": {
+      "displayName": "Administrador",
+      "nombre": "administrador"
+    },
+    "rut": "12345678-9",
+    "sexo": "masculino",
+    "turno": "Turno A Noche"
+  },
+  "vistos": {
+    "qnQonIl9RBXNUaw8PtJxQvei4S93": {
+      "fecha": "2023-02-06 00:25:54",
+      "id": "qnQonIl9RBXNUaw8PtJxQvei4S93"
+    }
+  }
+}

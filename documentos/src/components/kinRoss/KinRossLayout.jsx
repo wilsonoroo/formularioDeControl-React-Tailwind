@@ -243,7 +243,7 @@ export const KinRossLayout = () => {
               </tr>
               <tr>
                 <td className="border">Firma del conductor</td>
-                <td className="border text-center font-normal"></td>
+                <td className="border text-center font-normal">****</td>
               </tr>
             </tbody>
           </table>

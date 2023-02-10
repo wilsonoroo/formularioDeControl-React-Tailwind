@@ -5,7 +5,7 @@ export const AppRouter = () => {
   return (
     <Routes>
       <Route path="checkList/:empresa/:id" element={<KinRossLayout />} />
-
+      
       {/* <Route path='/*' element={ <Navigate to="register"/> } /> */}
     </Routes>
   );

@@ -1,0 +1,1947 @@
+{
+  "checklist": {
+    "abreviatura": "IS",
+    "categoria": "accidente_en_ruta-vehiculo_liviano",
+    "configuracion": {
+      "cantidadMaximaFotos": 3,
+      "needPlanDeAccion": true,
+      "needValidacion": true,
+      "validacionGlobal": true
+    },
+    "descripcion": "PENDIENTE_JUVE",
+    "empresa": "BHP",
+    "faena": "ESCONDIDA",
+    "icono": "assets/images/iconos/instructivo_de_seguridad/accidente_en_ruta-vehiculo_liviano.svg",
+    "id": "bhp-accidente_en_ruta-vehiculo_liviano-a-1",
+    "instruccion": "PENDIENTE_JUVE",
+    "nombre": "Accidente En Ruta Vehículo Liviano",
+    "secciones": {
+      "cc1": {
+        "id": "cc1",
+        "index": 2,
+        "instruccion": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "noAplica": {
+          "isNoAplica": false,
+          "primario": [
+            {
+              "content": "Sistema de monitoreo de la conducción",
+              "type": "text"
+            }
+          ],
+          "secundario": [
+            {
+              "content": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/resources%2Fimages%2Finstructivo_de_seguridad%2Fbhp-escondida%2Faccidente_en_ruta-vehiculo_liviano%2Fbhp-escondida_is-accidente_en_ruta-cc1.svg?alt=media",
+              "type": "image"
+            }
+          ],
+          "valor": false
+        },
+        "nombre": "",
+        "preguntas": {
+          "p1-2": {
+            "contenido": "¿Cuenta con dispositivo de identificación electrónica, personal e intransferible del conductor?",
+            "id": "p1-2",
+            "index": 1,
+            "isRequired": true,
+            "seccionId": "cc1",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "Sí-No-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p2-2": {
+            "contenido": "¿Se encuentra al día con sus desviaciones y/o sanciones pendientes?",
+            "id": "p2-2",
+            "index": 2,
+            "isRequired": true,
+            "seccionId": "cc1",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p3-2": {
+            "contenido": "¿Cuenta con su licencia municipal e interna de conducción vigente y autorizada para el vehiculo, área y ruta que va a conducir?",
+            "id": "p3-2",
+            "index": 3,
+            "isRequired": true,
+            "seccionId": "cc1",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        },
+        "titulo": "Control Crítico 1"
+      },
+      "cc2": {
+        "id": "cc2",
+        "index": 2,
+        "instruccion": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "noAplica": {
+          "isNoAplica": false,
+          "primario": [
+            {
+              "content": "Certificación, mantención y calibración de sistemas del vehículo e inspección de elementos según pauta",
+              "type": "text"
+            }
+          ],
+          "secundario": [
+            {
+              "content": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/resources%2Fimages%2Finstructivo_de_seguridad%2Fbhp-escondida%2Faccidente_en_ruta-vehiculo_liviano%2Fbhp-escondida_is-accidente_en_ruta-cc2.svg?alt=media",
+              "type": "image"
+            }
+          ],
+          "valor": false
+        },
+        "nombre": "",
+        "preguntas": {
+          "p1-2": {
+            "contenido": "¿Cuenta el vehículo con una etiqueta (sello) que indique que la mantención se encuentra vigente?",
+            "id": "p1-2",
+            "index": 1,
+            "isRequired": true,
+            "seccionId": "cc2",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p2-2": {
+            "contenido": "¿Cuenta el vehículo con una etiqueta (sello) que indique que está autorizado para tránsito interno, externo y/o áreas específicas?",
+            "id": "p2-2",
+            "index": 2,
+            "isRequired": true,
+            "seccionId": "cc2",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p3-2": {
+            "contenido": "¿Los neumáticos se encuentran en buen estado (sin cortes, deformaciones, marca del desgaste del neumático) y con traba-tuercas o equivalente autorizado por el sitio bien instalado?",
+            "id": "p3-2",
+            "index": 3,
+            "isRequired": true,
+            "seccionId": "cc2",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p4-2": {
+            "contenido": "¿Se realizó la inspección de pre-uso (check-list) del vehículo y comprobó que están todos los elementos de la lista operativos?",
+            "id": "p4-2",
+            "index": 4,
+            "isRequired": true,
+            "seccionId": "cc2",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        },
+        "titulo": "Control Crítico 2"
+      },
+      "cc3": {
+        "id": "cc3",
+        "index": 3,
+        "instruccion": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "noAplica": {
+          "isNoAplica": true,
+          "primario": [
+            {
+              "content": "Escolta Durante el Traslado de Cargas Especiales y Peligrosas",
+              "type": "text"
+            },
+            {
+              "content": "",
+              "type": "noAplica"
+            }
+          ],
+          "secundario": [
+            {
+              "content": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/resources%2Fimages%2Finstructivo_de_seguridad%2Fbhp-escondida%2Faccidente_en_ruta-vehiculo_liviano%2Fbhp-escondida_is-accidente_en_ruta-cc3.png?alt=media",
+              "type": "image"
+            }
+          ],
+          "valor": true
+        },
+        "nombre": "",
+        "preguntas": {
+          "p1-3": {
+            "contenido": "¿El transporte de carga especiales o peligrosas cuenta con autorización delorganismo competente y es realizada por escoltas acreditadas con vehículos que cumplen el estándar? (Gubernamental o sitios).",
+            "id": "p1-3",
+            "index": 1,
+            "isRequired": true,
+            "seccionId": "cc3",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p2-3": {
+            "contenido": "¿Se realizó la revisión de la documentación del transportista, y se chequeó la carga antes de iniciar el movimiento?",
+            "id": "p2-3",
+            "index": 2,
+            "isRequired": true,
+            "seccionId": "cc3",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p3-3": {
+            "contenido": "Si el transporte es de más de una carga sobredimensionada ¿se realizó un análisis de cómo se conforma el convoy y la posición que ocupa cada carga según el peso y sobredimensión?",
+            "id": "p3-3",
+            "index": 3,
+            "isRequired": true,
+            "seccionId": "cc3",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p4-3": {
+            "contenido": "¿Se chequeó si hay trabajos en la ruta o si hay pasos bajo líneas energizadas y si se cumple con la altura máxima permitida?",
+            "id": "p4-3",
+            "index": 4,
+            "isRequired": true,
+            "seccionId": "cc3",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        },
+        "titulo": "Control Crítico 3"
+      },
+      "cc4": {
+        "id": "cc4",
+        "index": 4,
+        "instruccion": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "noAplica": {
+          "isNoAplica": false,
+          "primario": [
+            {
+              "content": "Uso correcto de cinturón de seguridad",
+              "type": "text"
+            }
+          ],
+          "secundario": [
+            {
+              "content": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/resources%2Fimages%2Finstructivo_de_seguridad%2Fbhp-escondida%2Faccidente_en_ruta-vehiculo_liviano%2Fbhp-escondida_is-accidente_en_ruta-cc4.svg?alt=media",
+              "type": "image"
+            }
+          ],
+          "valor": false
+        },
+        "nombre": "",
+        "preguntas": {
+          "p1-4": {
+            "contenido": "¿El vehículo cuenta con cinturones de tres puntas para todos los pasajeros y se encuentran en buen estado?",
+            "id": "p1-4",
+            "index": 1,
+            "isRequired": true,
+            "seccionId": "cc4",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p2-4": {
+            "contenido": "Antes de iniciar el viaje ¿todos los ocupantes del vehículo tienen correctamente abrochado su cinturon de seguridad?",
+            "id": "p2-4",
+            "index": 2,
+            "isRequired": true,
+            "seccionId": "cc4",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p3-4": {
+            "contenido": "¿Se ajustó y verificó el correcto uso del cinturón de seguridad?",
+            "id": "p3-4",
+            "index": 3,
+            "isRequired": true,
+            "seccionId": "cc4",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        },
+        "titulo": "Control Crítico 4"
+      },
+      "seccion1": {
+        "id": "seccion1",
+        "index": 1,
+        "instruccion": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "noAplica": {
+          "isNoAplica": false,
+          "valor": false
+        },
+        "nombre": "",
+        "preguntas": {
+          "p1-1": {
+            "contenido": "¿Se encuentra libre de consumo de medicamentos que puedan afectar su capacidad mental y/o física para conducir?",
+            "id": "p1-1",
+            "index": 1,
+            "isRequired": true,
+            "seccionId": "seccion1",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p2-1": {
+            "contenido": "¿Ha dormido lo suficiente para afirmar que se encuentra apto para cumplir y sin cansancio?",
+            "id": "p2-1",
+            "index": 2,
+            "isRequired": true,
+            "seccionId": "seccion1",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p3-1": {
+            "contenido": "¿Posee licencia de conducir vigente y acreditada para el vehículo que va a conducir?",
+            "id": "p3-1",
+            "index": 3,
+            "isRequired": true,
+            "seccionId": "seccion1",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p4-1": {
+            "contenido": "¿Conoce el funcionamiento del control de velocidad (IVMS/GPS) con que cuenta el vehículo liviano, y está consciente de su uso?",
+            "id": "p4-1",
+            "index": 4,
+            "isRequired": true,
+            "seccionId": "seccion1",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": true,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        }
+      }
+    },
+    "seccionesValidacion": {
+      "validacionInicial": {
+        "id": "validacionInicial",
+        "index": 1,
+        "instruccion": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "nombre": "",
+        "preguntas": {
+          "p1": {
+            "contenido": "Sistema de monitoreo de la conducción.",
+            "id": "p1",
+            "index": 1,
+            "isRequired": true,
+            "seccionId": "validacionInicial",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "Aprobado",
+                  "urlImagen": "",
+                  "valor": "aprobado"
+                }
+              },
+              "type": "type_radio_is"
+            },
+            "tipoPregunta": "Revisado",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p2": {
+            "contenido": "Certificación, mantención y calibración de sistemas del vehículo e inspección de  elementos según pauta.",
+            "id": "p2",
+            "index": 2,
+            "isRequired": true,
+            "seccionId": "validacionInicial",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "Aprobado",
+                  "urlImagen": "",
+                  "valor": "aprobado"
+                }
+              },
+              "type": "type_radio_is"
+            },
+            "tipoPregunta": "Revisado",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p3": {
+            "contenido": "Escolta durante el traslado de cargas especiales y peligrosas.",
+            "id": "p3",
+            "index": 3,
+            "isRequired": true,
+            "seccionId": "validacionInicial",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "Aprobado",
+                  "urlImagen": "",
+                  "valor": "aprobado"
+                }
+              },
+              "type": "type_radio_is"
+            },
+            "tipoPregunta": "Revisado",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p4": {
+            "contenido": "Uso correcto de cinturón de seguridad",
+            "id": "p4",
+            "index": 4,
+            "isRequired": true,
+            "seccionId": "validacionInicial",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "Aprobado",
+                  "urlImagen": "",
+                  "valor": "aprobado"
+                }
+              },
+              "type": "type_radio_is"
+            },
+            "tipoPregunta": "Revisado",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        },
+        "titulo": ""
+      }
+    },
+    "tag": "instructivo_seguridad_BHP_ar",
+    "tipo": "instructivo_seguridad"
+  },
+  "cliente": "VAKU",
+  "correlativo": "VAKU-0055",
+  "cuadrilla": {
+    "integrantes": {
+      "VVoAeGwKFNY9rYRY2TiRggFUak72": {
+        "areaCargo": "Antofagasta",
+        "cargo": "Administrador",
+        "codigo": "1234",
+        "displayName": "Luciano Felipe",
+        "email": "luciano@somti.cl",
+        "empresa": "VAKU VENTAS",
+        "empresaId": "VAKU",
+        "fotografia": {
+          "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/shingeki_no_sushi%2Fimages%2Fvaku_luciano.png?alt=media&token=15f281a8-4d5d-41a6-8fe7-12397cdf8790"
+        },
+        "id": "VVoAeGwKFNY9rYRY2TiRggFUak72",
+        "isFirmado": true,
+        "permisos": {
+          "creador_checklist": {
+            "codigo": "creador_checklist",
+            "displayName": "Creador de Checklist",
+            "id": "creador_checklist"
+          },
+          "creador_is": {
+            "codigo": "creador_is",
+            "displayName": "Creador de IS",
+            "id": "creador_is"
+          },
+          "responsable": {
+            "codigo": "responsable",
+            "displayName": "Responsable",
+            "id": "responsable"
+          }
+        },
+        "rol": {
+          "displayName": "Administrador",
+          "nombre": "administrador"
+        },
+        "rut": "12345678-9",
+        "sexo": "masculino",
+        "turno": "Turno A Noche"
+      },
+      "a1CWuUCsI6ezQlGeiGHZj2xbImx1": {
+        "areaCargo": "Antofagasta",
+        "cargo": "Administrador",
+        "codigo": "1234",
+        "cuadrilla": [
+          {
+            "id": "5cywYb5tqof85KI2OF80GcsxmDSD",
+            "nombre": "Cuadrilla A"
+          }
+        ],
+        "displayName": "Javier Malebran",
+        "email": "javier@somti.cl",
+        "empresa": "VAKU VENTAS",
+        "empresaId": "VAKU",
+        "fotografia": {
+          "url": "https://picsum.photos/200/300"
+        },
+        "id": "a1CWuUCsI6ezQlGeiGHZj2xbImx1",
+        "isFirmado": true,
+        "permisos": {
+          "administrador": {
+            "codigo": "desconocido",
+            "displayName": "Administrador",
+            "id": "administrador"
+          },
+          "creador_checklist": {
+            "codigo": "creador_checklist",
+            "displayName": "Creador de Checklist",
+            "id": "creador_checklist"
+          },
+          "creador_is": {
+            "codigo": "creador_is",
+            "displayName": "Creador de IS",
+            "id": "creador_is"
+          },
+          "planificador": {
+            "codigo": "planificador",
+            "displayName": "Planificador",
+            "id": "planificador"
+          },
+          "responsable": {
+            "codigo": "responsable",
+            "displayName": "Responsable",
+            "id": "responsable"
+          },
+          "validador": {
+            "codigo": "validador",
+            "displayName": "Validador",
+            "id": "validador"
+          }
+        },
+        "rol": {
+          "displayName": "Administrador",
+          "nombre": "administrador"
+        },
+        "rut": "12345678-9",
+        "sexo": "masculino",
+        "turno": "Turno A Noche"
+      },
+      "qnQonIl9RBXNUaw8PtJxQvei4S93": {
+        "areaCargo": "Antofagasta",
+        "cargo": "Administrador",
+        "codigo": "1234",
+        "cuadrilla": [
+          {
+            "id": "5cywYb5tqof85KI2OF80GcsxmDSD",
+            "nombre": "cuadrilla-1"
+          },
+          {
+            "id": "5cywYb5tqof85KI2OF80GcsxmDSY",
+            "nombre": "cuadrilla-2"
+          }
+        ],
+        "displayName": "Victor Varas",
+        "email": "victor@somti.cl",
+        "empresa": "VAKU VENTAS",
+        "empresaId": "VAKU",
+        "fotografia": {
+          "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/somti_venta%2Fimages%2Fvictor.png?alt=media"
+        },
+        "id": "qnQonIl9RBXNUaw8PtJxQvei4S93",
+        "isFirmado": true,
+        "permisos": {
+          "administrador": {
+            "codigo": "desconocido",
+            "displayName": "Administrador",
+            "id": "administrador"
+          },
+          "creador_checklist": {
+            "codigo": "creador_checklist",
+            "displayName": "Creador de Checklist",
+            "id": "creador_checklist"
+          },
+          "creador_is": {
+            "codigo": "creador_is",
+            "displayName": "Creador de IS",
+            "id": "creador_is"
+          },
+          "planificador": {
+            "codigo": "planificador",
+            "displayName": "Planificador",
+            "id": "planificador"
+          },
+          "responsable": {
+            "codigo": "responsable",
+            "displayName": "Responsable",
+            "id": "responsable"
+          },
+          "validador": {
+            "codigo": "validador",
+            "displayName": "Validador",
+            "id": "validador"
+          }
+        },
+        "rol": {
+          "displayName": "Administrador",
+          "nombre": "administrador"
+        },
+        "rut": "12345678-9",
+        "sexo": "masculino",
+        "turno": "Turno A Noche"
+      }
+    },
+    "validadores": {
+      "4m8adtew0seIYKUdrCZOr94c1YA2": {
+        "areaCargo": "Antofagasta",
+        "cargo": "Administrador",
+        "codigo": "1234",
+        "cuadrilla": [
+          {
+            "id": "5cywYb5tqof85KI2OF80GcsxmDSD",
+            "nombre": "cuadrilla-1"
+          },
+          {
+            "id": "5cywYb5tqof85KI2OF80GcsxmDSY",
+            "nombre": "cuadrilla-2"
+          }
+        ],
+        "displayName": "Alexis Solis",
+        "email": "alexis@somti.cl",
+        "empresa": "VAKU VENTAS",
+        "empresaId": "VAKU",
+        "fotografia": {
+          "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/somti_venta%2Fimages%2Falexis.png?alt=media"
+        },
+        "id": "4m8adtew0seIYKUdrCZOr94c1YA2",
+        "isFirmado": false,
+        "permisos": {
+          "administrador": {
+            "codigo": "desconocido",
+            "displayName": "Administrador",
+            "id": "administrador"
+          },
+          "creador_checklist": {
+            "codigo": "creador_checklist",
+            "displayName": "Creador de Checklist",
+            "id": "creador_checklist"
+          },
+          "creador_is": {
+            "codigo": "creador_is",
+            "displayName": "Creador de IS",
+            "id": "creador_is"
+          },
+          "planificador": {
+            "codigo": "planificador",
+            "displayName": "Planificador",
+            "id": "planificador"
+          },
+          "responsable": {
+            "codigo": "responsable",
+            "displayName": "Responsable",
+            "id": "responsable"
+          },
+          "validador": {
+            "codigo": "validador",
+            "displayName": "Validador",
+            "id": "validador"
+          }
+        },
+        "rol": {
+          "displayName": "Administrador",
+          "nombre": "administrador"
+        },
+        "rut": "12345678-9",
+        "sexo": "masculino",
+        "turno": "Turno A Noche"
+      }
+    }
+  },
+  "emisor": {
+    "areaCargo": "Antofagasta",
+    "cargo": "Administrador",
+    "codigo": "1234",
+    "cuadrilla": [
+      {
+        "id": "5cywYb5tqof85KI2OF80GcsxmDSD",
+        "nombre": "cuadrilla-1"
+      },
+      {
+        "id": "5cywYb5tqof85KI2OF80GcsxmDSY",
+        "nombre": "cuadrilla-2"
+      },
+      {
+        "id": "5cywYb5tqof85KI2OF80GcsxmDSY",
+        "nombre": "Cuadrilla C"
+      }
+    ],
+    "displayName": "Victor Varas",
+    "dispositivos": {
+      "cLRKGB1KRT2nXB1oPrlExF:APA91bFIqTDnJp944oE8aMtKnKlYZ_8z-rWqi7RPKYMaGp6EeUZ3O2hXMTqdG8msbUC9c5hktQqxoXtdKhSZHkQQVghNsjLm_b4I93nyhRw9SWZmdxOLC-59UMZ21Nk1UW6wf_Ic64rx": {
+        "createdAt": "2023-01-30 15:05:12",
+        "id": "cLRKGB1KRT2nXB1oPrlExF:APA91bFIqTDnJp944oE8aMtKnKlYZ_8z-rWqi7RPKYMaGp6EeUZ3O2hXMTqdG8msbUC9c5hktQqxoXtdKhSZHkQQVghNsjLm_b4I93nyhRw9SWZmdxOLC-59UMZ21Nk1UW6wf_Ic64rx",
+        "os": "android",
+        "token": "cLRKGB1KRT2nXB1oPrlExF:APA91bFIqTDnJp944oE8aMtKnKlYZ_8z-rWqi7RPKYMaGp6EeUZ3O2hXMTqdG8msbUC9c5hktQqxoXtdKhSZHkQQVghNsjLm_b4I93nyhRw9SWZmdxOLC-59UMZ21Nk1UW6wf_Ic64rx"
+      },
+      "dOQhsOazRjO27wL3rwQtJj:APA91bGip6ihgWSG5WJmKl-68Ume18WJro7NWfPeglqTBQp5qUxhy8pr-x-oiTu3HaplRyjsbzDrAXhOImhCujOQrxmTYq0Glj_HXMISAdT3MGEgo31sgZ0oVIZFU1nkwiATrgk88jEX": {
+        "createdAt": "2023-01-30 13:00:23",
+        "id": "dOQhsOazRjO27wL3rwQtJj:APA91bGip6ihgWSG5WJmKl-68Ume18WJro7NWfPeglqTBQp5qUxhy8pr-x-oiTu3HaplRyjsbzDrAXhOImhCujOQrxmTYq0Glj_HXMISAdT3MGEgo31sgZ0oVIZFU1nkwiATrgk88jEX",
+        "os": "android",
+        "token": "dOQhsOazRjO27wL3rwQtJj:APA91bGip6ihgWSG5WJmKl-68Ume18WJro7NWfPeglqTBQp5qUxhy8pr-x-oiTu3HaplRyjsbzDrAXhOImhCujOQrxmTYq0Glj_HXMISAdT3MGEgo31sgZ0oVIZFU1nkwiATrgk88jEX"
+      },
+      "dujvvBM_QLaUb98ZmEcXse:APA91bGxB5ttTTJb45TCKW4hAQVh7-VguGAWcuMNcHnNjR61xWeY9VRpHbRe51ienWYcsaoM6qGbSE5_iJYpnlUQRaZ4XQPohlUZ1GuciImpqZJ1B8CGgVUwA2VkhHCKZXm5FMmlUORv": {
+        "createdAt": "2023-01-31 19:51:01",
+        "id": "dujvvBM_QLaUb98ZmEcXse:APA91bGxB5ttTTJb45TCKW4hAQVh7-VguGAWcuMNcHnNjR61xWeY9VRpHbRe51ienWYcsaoM6qGbSE5_iJYpnlUQRaZ4XQPohlUZ1GuciImpqZJ1B8CGgVUwA2VkhHCKZXm5FMmlUORv",
+        "os": "android",
+        "token": "dujvvBM_QLaUb98ZmEcXse:APA91bGxB5ttTTJb45TCKW4hAQVh7-VguGAWcuMNcHnNjR61xWeY9VRpHbRe51ienWYcsaoM6qGbSE5_iJYpnlUQRaZ4XQPohlUZ1GuciImpqZJ1B8CGgVUwA2VkhHCKZXm5FMmlUORv"
+      },
+      "fccwL_XpQT2xwMQXBcBkcG:APA91bHxxpHE3PKo5jG9gx2zR3FbM0-gZR0uNG8s6PT6mVdeAB_BYA-y7nozNRnl590frQgXdcwkKp2V1VBT2AHgi3G7Kl2Y5tw2d90AquCMx409xRPsOnN1OJ14iJqe3gXAhERnZjuc": {
+        "createdAt": "2023-01-29 17:23:30",
+        "id": "fccwL_XpQT2xwMQXBcBkcG:APA91bHxxpHE3PKo5jG9gx2zR3FbM0-gZR0uNG8s6PT6mVdeAB_BYA-y7nozNRnl590frQgXdcwkKp2V1VBT2AHgi3G7Kl2Y5tw2d90AquCMx409xRPsOnN1OJ14iJqe3gXAhERnZjuc",
+        "os": "android",
+        "token": "fccwL_XpQT2xwMQXBcBkcG:APA91bHxxpHE3PKo5jG9gx2zR3FbM0-gZR0uNG8s6PT6mVdeAB_BYA-y7nozNRnl590frQgXdcwkKp2V1VBT2AHgi3G7Kl2Y5tw2d90AquCMx409xRPsOnN1OJ14iJqe3gXAhERnZjuc"
+      }
+    },
+    "email": "victor@somti.cl",
+    "empresa": "VAKU VENTAS",
+    "empresaId": "VAKU",
+    "fechaVencimientoLicencia": "2022-10-14 12:55:14.00",
+    "fotografia": {
+      "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/somti_venta%2Fimages%2Fvictor.png?alt=media"
+    },
+    "id": "qnQonIl9RBXNUaw8PtJxQvei4S93",
+    "isEliminado": false,
+    "licencia": "Si",
+    "permisos": {
+      "administrador": {
+        "codigo": "desconocido",
+        "displayName": "Administrador",
+        "id": "administrador"
+      },
+      "creador_checklist": {
+        "codigo": "creador_checklist",
+        "displayName": "Creador de Checklist",
+        "id": "creador_checklist"
+      },
+      "creador_is": {
+        "codigo": "creador_is",
+        "displayName": "Creador de IS",
+        "id": "creador_is"
+      },
+      "planificador": {
+        "codigo": "planificador",
+        "displayName": "Planificador",
+        "id": "planificador"
+      },
+      "responsable": {
+        "codigo": "responsable",
+        "displayName": "Responsable",
+        "id": "responsable"
+      },
+      "validador": {
+        "codigo": "validador",
+        "displayName": "Validador",
+        "id": "validador"
+      }
+    },
+    "rol": {
+      "displayName": "Administrador",
+      "nombre": "administrador"
+    },
+    "rut": "12345678-9",
+    "sexo": "masculino",
+    "turno": "Turno A Noche"
+  },
+  "encabezado": {
+    "areaTrabajo": "TLS (Tranque Laguna Seca)",
+    "descripcionDelTrabajo": "JkKKK",
+    "empresaADesarrollar": "Phibion",
+    "kilometraje": "null",
+    "lugarFaena": "ESCONDIDA | BHP"
+  },
+  "estado": "finalizado",
+  "fechaCreacion": "2023-02-09 02:16:05",
+  "fechaSubida": "2023-02-09 02:15:27",
+  "fechaValidacion": "2023-02-09 02:17:55",
+  "id": "eb8dd91b61",
+  "isAutovalidacion": false,
+  "isConCuadrilla": true,
+  "isPlanDeAccion": false,
+  "pdf": {
+    "id": "7b3143ea-2bb3-40c7-8b64-ff531c666bbf",
+    "name": "7b3143ea-2bb3-40c7-8b64-ff531c666bbf",
+    "path": "VAKU/pdf/7b3143ea-2bb3-40c7-8b64-ff531c666bbf",
+    "size": 443775,
+    "token": "368386df-74e9-471a-bc4f-319aee6c4c7e",
+    "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fpdf%2F7b3143ea-2bb3-40c7-8b64-ff531c666bbf?alt=media&token=368386df-74e9-471a-bc4f-319aee6c4c7e"
+  },
+  "seccionesRespuestas": {
+    "cc1": {
+      "id": "cc1",
+      "index": 1,
+      "instruccion": "",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "noAplica": {
+        "isNoAplica": false,
+        "primario": [
+          {
+            "content": "Sistema de monitoreo de la conducción",
+            "type": "text"
+          }
+        ],
+        "secundario": [
+          {
+            "content": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/resources%2Fimages%2Finstructivo_de_seguridad%2Fbhp-escondida%2Faccidente_en_ruta-vehiculo_liviano%2Fbhp-escondida_is-accidente_en_ruta-cc1.svg?alt=media",
+            "type": "image"
+          }
+        ],
+        "valor": false
+      },
+      "nombre": "",
+      "respuestas": {
+        "p1-2": {
+          "contenido": "¿Cuenta con dispositivo de identificación electrónica, personal e intransferible del conductor?",
+          "id": "p1-2",
+          "index": 1,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "cc1",
+          "tipo": {
+            "opciones": {
+              "o2": {
+                "color": "rojo",
+                "enableComentario": true,
+                "enableUploadFoto": false,
+                "id": "o2",
+                "isMalo": false,
+                "label": "N",
+                "urlImagen": "",
+                "valor": "N"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "Sí-No-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p2-2": {
+          "contenido": "¿Se encuentra al día con sus desviaciones y/o sanciones pendientes?",
+          "id": "p2-2",
+          "index": 2,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "cc1",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": true,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p3-2": {
+          "contenido": "¿Cuenta con su licencia municipal e interna de conducción vigente y autorizada para el vehiculo, área y ruta que va a conducir?",
+          "id": "p3-2",
+          "index": 3,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "cc1",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": true,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      },
+      "titulo": "Control Crítico 1"
+    },
+    "cc2": {
+      "id": "cc2",
+      "index": 2,
+      "instruccion": "",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "noAplica": {
+        "isNoAplica": false,
+        "primario": [
+          {
+            "content": "Certificación, mantención y calibración de sistemas del vehículo e inspección de elementos según pauta",
+            "type": "text"
+          }
+        ],
+        "secundario": [
+          {
+            "content": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/resources%2Fimages%2Finstructivo_de_seguridad%2Fbhp-escondida%2Faccidente_en_ruta-vehiculo_liviano%2Fbhp-escondida_is-accidente_en_ruta-cc2.svg?alt=media",
+            "type": "image"
+          }
+        ],
+        "valor": false
+      },
+      "nombre": "",
+      "respuestas": {
+        "p1-2": {
+          "contenido": "¿Cuenta el vehículo con una etiqueta (sello) que indique que la mantención se encuentra vigente?",
+          "id": "p1-2",
+          "index": 1,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "cc2",
+          "tipo": {
+            "opciones": {
+              "o2": {
+                "color": "rojo",
+                "enableComentario": true,
+                "enableUploadFoto": false,
+                "id": "o2",
+                "isMalo": false,
+                "label": "N",
+                "urlImagen": "",
+                "valor": "N"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p2-2": {
+          "contenido": "¿Cuenta el vehículo con una etiqueta (sello) que indique que está autorizado para tránsito interno, externo y/o áreas específicas?",
+          "id": "p2-2",
+          "index": 2,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "cc2",
+          "tipo": {
+            "opciones": {
+              "o2": {
+                "color": "rojo",
+                "enableComentario": true,
+                "enableUploadFoto": false,
+                "id": "o2",
+                "isMalo": false,
+                "label": "N",
+                "urlImagen": "",
+                "valor": "N"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p3-2": {
+          "contenido": "¿Los neumáticos se encuentran en buen estado (sin cortes, deformaciones, marca del desgaste del neumático) y con traba-tuercas o equivalente autorizado por el sitio bien instalado?",
+          "id": "p3-2",
+          "index": 3,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "cc2",
+          "tipo": {
+            "opciones": {
+              "o2": {
+                "color": "rojo",
+                "enableComentario": true,
+                "enableUploadFoto": false,
+                "id": "o2",
+                "isMalo": false,
+                "label": "N",
+                "urlImagen": "",
+                "valor": "N"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p4-2": {
+          "contenido": "¿Se realizó la inspección de pre-uso (check-list) del vehículo y comprobó que están todos los elementos de la lista operativos?",
+          "id": "p4-2",
+          "index": 4,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "cc2",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": true,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      },
+      "titulo": "Control Crítico 2"
+    },
+    "cc3": {
+      "id": "cc3",
+      "index": 3,
+      "instruccion": "",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "noAplica": {
+        "isNoAplica": true,
+        "primario": [
+          {
+            "content": "Escolta Durante el Traslado de Cargas Especiales y Peligrosas",
+            "type": "text"
+          },
+          {
+            "content": "",
+            "type": "noAplica"
+          }
+        ],
+        "secundario": [
+          {
+            "content": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/resources%2Fimages%2Finstructivo_de_seguridad%2Fbhp-escondida%2Faccidente_en_ruta-vehiculo_liviano%2Fbhp-escondida_is-accidente_en_ruta-cc3.png?alt=media",
+            "type": "image"
+          }
+        ],
+        "valor": true
+      },
+      "nombre": "",
+      "respuestas": {
+        "p1-3": {
+          "contenido": "¿El transporte de carga especiales o peligrosas cuenta con autorización delorganismo competente y es realizada por escoltas acreditadas con vehículos que cumplen el estándar? (Gubernamental o sitios).",
+          "id": "p1-3",
+          "index": 1,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "cc3",
+          "tipo": {
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p2-3": {
+          "contenido": "¿Se realizó la revisión de la documentación del transportista, y se chequeó la carga antes de iniciar el movimiento?",
+          "id": "p2-3",
+          "index": 2,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "cc3",
+          "tipo": {
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p3-3": {
+          "contenido": "Si el transporte es de más de una carga sobredimensionada ¿se realizó un análisis de cómo se conforma el convoy y la posición que ocupa cada carga según el peso y sobredimensión?",
+          "id": "p3-3",
+          "index": 3,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "cc3",
+          "tipo": {
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p4-3": {
+          "contenido": "¿Se chequeó si hay trabajos en la ruta o si hay pasos bajo líneas energizadas y si se cumple con la altura máxima permitida?",
+          "id": "p4-3",
+          "index": 4,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "cc3",
+          "tipo": {
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      },
+      "titulo": "Control Crítico 3"
+    },
+    "cc4": {
+      "id": "cc4",
+      "index": 4,
+      "instruccion": "",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "noAplica": {
+        "isNoAplica": false,
+        "primario": [
+          {
+            "content": "Uso correcto de cinturón de seguridad",
+            "type": "text"
+          }
+        ],
+        "secundario": [
+          {
+            "content": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/resources%2Fimages%2Finstructivo_de_seguridad%2Fbhp-escondida%2Faccidente_en_ruta-vehiculo_liviano%2Fbhp-escondida_is-accidente_en_ruta-cc4.svg?alt=media",
+            "type": "image"
+          }
+        ],
+        "valor": false
+      },
+      "nombre": "",
+      "respuestas": {
+        "p1-4": {
+          "contenido": "¿El vehículo cuenta con cinturones de tres puntas para todos los pasajeros y se encuentran en buen estado?",
+          "id": "p1-4",
+          "index": 1,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "cc4",
+          "tipo": {
+            "opciones": {
+              "o2": {
+                "color": "rojo",
+                "enableComentario": true,
+                "enableUploadFoto": false,
+                "id": "o2",
+                "isMalo": false,
+                "label": "N",
+                "urlImagen": "",
+                "valor": "N"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p2-4": {
+          "contenido": "Antes de iniciar el viaje ¿todos los ocupantes del vehículo tienen correctamente abrochado su cinturon de seguridad?",
+          "id": "p2-4",
+          "index": 2,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "cc4",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": true,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p3-4": {
+          "contenido": "¿Se ajustó y verificó el correcto uso del cinturón de seguridad?",
+          "id": "p3-4",
+          "index": 3,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "cc4",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": true,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      },
+      "titulo": "Control Crítico 4"
+    },
+    "seccion1": {
+      "id": "seccion1",
+      "index": 1,
+      "instruccion": "",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "noAplica": {
+        "isNoAplica": false,
+        "valor": false
+      },
+      "nombre": "",
+      "respuestas": {
+        "p1-1": {
+          "contenido": "¿Se encuentra libre de consumo de medicamentos que puedan afectar su capacidad mental y/o física para conducir?",
+          "id": "p1-1",
+          "index": 1,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "seccion1",
+          "tipo": {
+            "opciones": {
+              "o2": {
+                "color": "rojo",
+                "enableComentario": true,
+                "enableUploadFoto": false,
+                "id": "o2",
+                "isMalo": false,
+                "label": "N",
+                "urlImagen": "",
+                "valor": "N"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p2-1": {
+          "contenido": "¿Ha dormido lo suficiente para afirmar que se encuentra apto para cumplir y sin cansancio?",
+          "id": "p2-1",
+          "index": 2,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "seccion1",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": true,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p3-1": {
+          "contenido": "¿Posee licencia de conducir vigente y acreditada para el vehículo que va a conducir?",
+          "id": "p3-1",
+          "index": 3,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "seccion1",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": true,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p4-1": {
+          "contenido": "¿Conoce el funcionamiento del control de velocidad (IVMS/GPS) con que cuenta el vehículo liviano, y está consciente de su uso?",
+          "id": "p4-1",
+          "index": 4,
+          "isRequired": true,
+          "observacion": "wjzkkzkzzi",
+          "seccionId": "seccion1",
+          "tipo": {
+            "opciones": {
+              "o2": {
+                "color": "rojo",
+                "enableComentario": true,
+                "enableUploadFoto": false,
+                "id": "o2",
+                "isMalo": false,
+                "label": "N",
+                "urlImagen": "",
+                "valor": "N"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      }
+    }
+  },
+  "seccionesRespuestasValidacion": {
+    "validacionInicial": {
+      "id": "validacionInicial",
+      "index": 1,
+      "instruccion": "",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "nombre": "",
+      "respuestas": {
+        "p1": {
+          "contenido": "Sistema de monitoreo de la conducción.",
+          "id": "p1",
+          "index": 1,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "validacionInicial",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "Aprobado",
+                "urlImagen": "",
+                "valor": "aprobado"
+              }
+            },
+            "type": "type_radio_is"
+          },
+          "tipoPregunta": "Revisado",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p2": {
+          "contenido": "Certificación, mantención y calibración de sistemas del vehículo e inspección de  elementos según pauta.",
+          "id": "p2",
+          "index": 2,
+          "isRequired": true,
+          "observacion": "comentarioo wilson",
+          "seccionId": "validacionInicial",
+          "tipo": {
+            "opciones": {
+              "o2": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o2",
+                "isMalo": false,
+                "label": "no aplica",
+                "urlImagen": "",
+                "valor": "no aplica"
+              }
+            },
+            "type": "type_radio_is"
+          },
+          "tipoPregunta": "Revisado",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p3": {
+          "contenido": "Escolta durante el traslado de cargas especiales y peligrosas.",
+          "id": "p3",
+          "index": 3,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "validacionInicial",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "Aprobado",
+                "urlImagen": "",
+                "valor": "aprobado"
+              }
+            },
+            "type": "type_radio_is"
+          },
+          "tipoPregunta": "Revisado",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p4": {
+          "contenido": "Uso correcto de cinturón de seguridad",
+          "id": "p4",
+          "index": 4,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "validacionInicial",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "Aprobado",
+                "urlImagen": "",
+                "valor": "aprobado"
+              }
+            },
+            "type": "type_radio_is"
+          },
+          "tipoPregunta": "Revisado",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      },
+      "titulo": ""
+    }
+  },
+  "validadoPor": {
+    "areaCargo": "Antofagasta",
+    "cargo": "Administrador",
+    "codigo": "1234",
+    "cuadrilla": [
+      {
+        "id": "5cywYb5tqof85KI2OF80GcsxmDSD",
+        "nombre": "cuadrilla-1"
+      },
+      {
+        "id": "5cywYb5tqof85KI2OF80GcsxmDSY",
+        "nombre": "cuadrilla-2"
+      },
+      {
+        "id": "5cywYb5tqof85KI2OF80GcsxmDSY",
+        "nombre": "Cuadrilla C"
+      }
+    ],
+    "displayName": "Alexis Solis",
+    "email": "alexis@somti.cl",
+    "empresa": "VAKU VENTAS",
+    "empresaId": "VAKU",
+    "fechaVencimientoLicencia": "2022-10-14 12:55:14.00",
+    "fotografia": {
+      "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/somti_venta%2Fimages%2Falexis.png?alt=media"
+    },
+    "id": "4m8adtew0seIYKUdrCZOr94c1YA2",
+    "isEliminado": false,
+    "licencia": "Si",
+    "permisos": {
+      "administrador": {
+        "codigo": "desconocido",
+        "displayName": "Administrador",
+        "id": "administrador"
+      },
+      "creador_checklist": {
+        "codigo": "creador_checklist",
+        "displayName": "Creador de Checklist",
+        "id": "creador_checklist"
+      },
+      "creador_is": {
+        "codigo": "creador_is",
+        "displayName": "Creador de IS",
+        "id": "creador_is"
+      },
+      "planificador": {
+        "codigo": "planificador",
+        "displayName": "Planificador",
+        "id": "planificador"
+      },
+      "responsable": {
+        "codigo": "responsable",
+        "displayName": "Responsable",
+        "id": "responsable"
+      },
+      "validador": {
+        "codigo": "validador",
+        "displayName": "Validador",
+        "id": "validador"
+      }
+    },
+    "rol": {
+      "displayName": "Administrador",
+      "nombre": "administrador"
+    },
+    "rut": "12345678-9",
+    "sexo": "masculino",
+    "turno": "Turno A Noche"
+  },
+  "vistos": {
+    "4m8adtew0seIYKUdrCZOr94c1YA2": {
+      "fecha": "2023-02-09 02:17:13",
+      "id": "4m8adtew0seIYKUdrCZOr94c1YA2"
+    }
+  }
+}

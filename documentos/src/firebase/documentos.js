@@ -1,5 +1,7 @@
 import { child, get, ref } from "firebase/database";
+import useSWR from "swr";
 import { db } from "./config";
+const fetcher = (url) => fetch(url).then((res) => res.json());
 
 export function getDocumentoById(empresa, id) {
     return new Promise((resolve, reject) => {
@@ -32,4 +34,19 @@ export function getDocumentoById(empresa, id) {
         });
     })
 
+}
+
+export function useGetToken(url) {
+
+    const { data, error, isLoading } = useSWR(
+        url,
+        fetcher
+    );
+
+
+    return {
+        user: data,
+        isLoading,
+        isError: error
+    }
 }

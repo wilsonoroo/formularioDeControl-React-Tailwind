@@ -7,6 +7,8 @@ import { getDocumentoById } from "../../firebase/documentos";
 import imgKinRoss from "./kinRossImg.png";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
+const url =
+  "https://us-central1-vaku-89121.cloudfunctions.net/account/userfront";
 
 export const KinRossLayout = () => {
   const { empresa, id } = useParams();
@@ -14,12 +16,14 @@ export const KinRossLayout = () => {
   const [loading, setLoading] = useState(true);
   moment.locale("es");
 
-  const { data, error, isLoading } = useSWR(
-    "https://us-central1-vaku-89121.cloudfunctions.net/account/userfront",
-    fetcher
-  );
+  const { data, error, isLoading } = useSWR(url, fetcher, {
+    revalidateIfStale: false,
+    revalidateOnFocus: false,
+    revalidateOnReconnect: false,
+  });
 
   useEffect(() => {
+    console.log(data);
     if (data) {
       setLoading(true);
       console.log(data.token);
@@ -68,7 +72,6 @@ export const KinRossLayout = () => {
     }
   };
 
-  console.log(respuestas().respuestasObservaciones);
   const ordenarSegunIndex = (arreglo) => {
     return arreglo.sort((a, b) => {
       return a.index - b.index;
@@ -118,25 +121,25 @@ export const KinRossLayout = () => {
                 style={{ fontSize: "9pt" }}
               >
                 <div className="flex ">
-                  <div className="bg-primaryColorKinRoss text-white w-36 border-b border-black border-r ">
+                  <div className="bg-primaryColorKinRoss text-white w-32 border-b border-black border-r ">
                     Codigo
                   </div>
                   <div className="mx-auto">F-PE-020-CH01</div>
                 </div>
                 <div className="flex ">
-                  <div className="bg-primaryColorKinRoss text-white w-36 border-b border-black border-r">
+                  <div className="bg-primaryColorKinRoss text-white w-32 border-b border-black border-r">
                     Elaborado/Aprobado
                   </div>
-                  <div className="mx-auto">P.Aguilera/S.Pereira </div>
+                  <div className="mx-auto text-xs">P.Aguilera/S.Pereira </div>
                 </div>
                 <div className="flex">
-                  <div className="bg-primaryColorKinRoss text-white w-36 border-b border-black border-r">
+                  <div className="bg-primaryColorKinRoss text-white w-32 border-b border-black border-r">
                     Fecha de Emision
                   </div>
                   <div className="mx-auto">22/05/2019</div>
                 </div>
                 <div className="flex">
-                  <div className="bg-primaryColorKinRoss text-white w-36 border-black border-r">
+                  <div className="bg-primaryColorKinRoss text-white w-32 border-black border-r">
                     Pagina
                   </div>
                   <div className="mx-auto">1 de 1</div>
@@ -144,22 +147,6 @@ export const KinRossLayout = () => {
               </div>
             </div>
           </div>
-          {/* cabecera de otra forma */}
-          {/* <table className='w-full mt-2'>
-                <thead>
-                    <tr>
-                        <th className='border w-2/12'> </th>
-                        <th className='border '></th>
-                        <th className='border w-4/12'></th>
-                        <th className='border'></th>
-                        <th className='border'></th>
-                    </tr>
-                </thead>
-                <tbody>                    
-                </tbody>
-
-
-            </table> */}
 
           <table className="w-full mt-3" style={{ fontSize: "9pt" }}>
             <thead>
@@ -277,7 +264,7 @@ export const KinRossLayout = () => {
                       <th>Comentarios</th>
                     </tr>
                   </thead>
-                  <tbody>
+                  <tbody className="break-inside-avoid">
                     {Object.values(unidad.respuestas).map((pregunta, index) => (
                       <tr className="border" key={index}>
                         <td className="border text-center">{index + 1}</td>

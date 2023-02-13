@@ -11,13 +11,12 @@ module.exports = {
       white: "#ffffff",
       black: "#000000",
       red: "#cb3a3e",
-      // text: {
-      //   DEFAULT: "#1F2937",
-      //   light: "#6C7281",
-      //   white: "#F3F4F6",
-      // },
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['"Arial"', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }

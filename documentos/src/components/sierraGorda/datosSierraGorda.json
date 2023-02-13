@@ -1260,15 +1260,15 @@
           "seccionId": "cc1",
           "tipo": {
             "opciones": {
-              "o2": {
+              "o3": {
                 "color": "rojo",
                 "enableComentario": true,
                 "enableUploadFoto": false,
-                "id": "o2",
+                "id": "o3",
                 "isMalo": false,
-                "label": "N",
+                "label": "N/A",
                 "urlImagen": "",
-                "valor": "N"
+                "valor": "N/A"
               }
             },
             "type": "type_radio_a"
@@ -1323,7 +1323,7 @@
             },
             "type": "type_radio_b"
           },
-          "tipoPregunta": "Sí-No",
+          "tipoPregunta": "Sí-No-N/A",
           "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
         }
       },
@@ -1351,7 +1351,7 @@
           {
             "content": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/resources%2Fimages%2Finstructivo_de_seguridad%2Fbhp-escondida%2Faccidente_en_ruta-vehiculo_liviano%2Fbhp-escondida_is-accidente_en_ruta-cc2.svg?alt=media",
             "type": "image"
-          }
+          }          
         ],
         "valor": false
       },
@@ -1589,7 +1589,7 @@
             },
             "type": "type_radio_b"
           },
-          "tipoPregunta": "Sí-No",
+          "tipoPregunta": "Sí-No-N/A",
           "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
         },
         "p2-4": {
@@ -1626,7 +1626,7 @@
           "seccionId": "cc4",
           "tipo": {
             "opciones": {
-              "o1": {
+              "o3": {
                 "color": "verde",
                 "enableComentario": true,
                 "enableUploadFoto": false,
@@ -1639,7 +1639,7 @@
             },
             "type": "type_radio_b"
           },
-          "tipoPregunta": "Sí-No",
+          "tipoPregunta": "Sí-No-N/A",
           "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
         }
       },

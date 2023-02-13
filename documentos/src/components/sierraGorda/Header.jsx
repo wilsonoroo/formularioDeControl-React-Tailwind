@@ -185,33 +185,82 @@ export const Header = () => {
 
             {resultado.seccionDeRespuestas.map((unidad, index) =>
                 unidad.id !== "seccion1" ? (
-                <div className="flex mb-10 w-full " key={index}>        
+                <div className="flex w-full mb-5" key={index}>        
                     <div className=''>    
                         <div style={{ fontSize: "9pt" }} className=' h-5 w-32 text-center bg-primaryColorSierrGorda text-white' >
                             Control Critico {unidad.index}
                         </div>
-                        <div className="img-container">
-                            <img src={unidad.noAplica.secundario[0].content} alt="img" style={{ height: "100px", width: "100px" }} />                    
+                        <div className="img-container">                            
+                            {unidad.noAplica.secundario
+                                .filter(item => item.type === "image")
+                                .map((item, index) => (
+                                  <img style={{ height: "100px", width: "100px" }} key={index} src={item.content} alt="secundario" />
+                            ))} 
+                            {unidad.noAplica.isNoAplica === true && unidad.noAplica.valor === true ? (
+                             <div className='flex '>
+                                <div className='flex bg-primaryColorSierrGorda text-white rounded items-center p-1 '> 
+                                    <span className='' >No aplica</span>  
+                                    <input className='form-checkbox w-8 h-5 pointer-events-none' type="checkbox" defaultChecked/>
+                                </div> 
+                             </div>  
+                            ) : unidad.noAplica.isNoAplica === true  ? ( 
+                                <div className='flex'>
+                                    <div className='flex bg-primaryColorSierrGorda text-white rounded items-center p-1 '> 
+                                        <span className='' >No aplica</span>  
+                                        <input className='form-checkbox w-8 h-5 pointer-events-none' type="checkbox"/>
+                                    </div> 
+                                </div>   
+                            ) : (
+                                <span></span>  
+                            )} 
                         </div>
                     </div>
                     <table className='text-left w-full '>
-                        <thead className=''>
+                        <thead >
                             <tr className='bg-primaryColorSierrGorda text-white' >                        
-                                {/* <th style={{ fontSize: "9pt" }} className='w-32 text-center border border-color-white'>CONTROL CRITICO</th> */}
                                 <th style={{ fontSize: "8pt" }} className='text-center border-l-2'>Dispositivos de seguridad</th>
                                 <th style={{ fontSize: "9pt" }} className='text-center border-l-2'>SI</th>
-                                <th style={{ fontSize: "9pt" }} className='text-center border-l-2'>NO</th>
-                                {/* {unidad.tipoPregunta === "Sí-No-N/A" ? (
-                                    <th style={{ fontSize: "9pt" }} className='text-center border-l-2'>N/A</th>
-                                ) : null} */}
+                                <th style={{ fontSize: "9pt" }} className='text-center border-l-2'>NO</th>                                
                                 <th style={{ fontSize: "9pt" }} className='w-32 text-center border-l-2'>COMENTARIOS</th>                        
                             </tr>
                         </thead>
                         <tbody >
                         { Object.values(unidad.respuestas).map((cCritico, index) => ( 
-                            <tr style={{ fontSize: "9pt" }} key={index}>
-                                {/* <th><img src={vehiculosLivianoImg} alt="img"/></th> */}
-                                <td className='font-normal' style={{ fontSize: "10pt" }}> {cCritico.contenido} </td>
+                            <tr className='mb-20' key={index} > 
+                                { cCritico.tipoPregunta === "Sí-No" ? (
+                                    <td className='font-normal' style={{ fontSize: "10pt" }}> {cCritico.contenido} </td>
+                                ) : cCritico.tipo.opciones.o3 ? ( 
+                                    <td className='font-normal pb-7' style={{ fontSize: "10pt" }}> 
+                                        <div className='d-flex ' style={{position: "relative" }} >
+                                            <div className=''>{cCritico.contenido}</div> 
+                                            <div className='bg-primaryColorSierrGorda p-1 w-24 flex text-white rounded'  style={{
+                                            position: "absolute",
+                                            top: 30,
+                                            right: 50,
+                                            zIndex: 1,
+                                            }}> 
+                                                <span >No aplica</span>  
+                                                <input className='form-checkbox w-8 h-5 pointer-events-none' type="checkbox" defaultChecked/>                                             
+                                            </div> 
+                                        </div>
+                                    </td>
+                                ) : ( 
+                                    <td className='font-normal pb-7' style={{ fontSize: "10pt"}} > 
+                                        <div className='d-flex ' style={{position: "relative" }} >
+                                            <div className=''>{cCritico.contenido}</div> 
+                                            <div className='bg-primaryColorSierrGorda p-1 w-24 flex text-white rounded'  style={{
+                                            position: "absolute",
+                                            top: 40,
+                                            right: 50,
+                                            zIndex: 1,
+                                            }}> 
+                                                <span >No aplica</span>  
+                                                <input className='form-checkbox w-8 h-5 pointer-events-none' type="checkbox"/>                                             
+                                            </div> 
+                                        </div>
+                                    </td>
+                                )}                              
+                               
                                 {cCritico.tipo && cCritico.tipo.opciones ? (
                                     cCritico.tipo.opciones.o1 ? (
                                         <React.Fragment>
@@ -248,7 +297,6 @@ export const Header = () => {
             )}
 
             <div className="flex items-center justify-center mt-10">
-
                 <div className=''>
                     <span className="p-2 bg-red rounded-3xl material-symbols-outlined text-white">back_hand</span>
                 </div>

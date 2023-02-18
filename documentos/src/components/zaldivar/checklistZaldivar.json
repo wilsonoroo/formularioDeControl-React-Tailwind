@@ -1,0 +1,3914 @@
+{
+  "checklist": {
+    "abreviatura": "LV",
+    "categoria": "vehiculo_liviano",
+    "configuracion": {
+      "cantidadMaximaFotos": 3,
+      "needPlanDeAccion": true,
+      "needValidacion": true,
+      "validacionGlobal": true
+    },
+    "descripcion": "La lista de verificación corresponde a una revisión rápida del vehículo liviano, basado en que el vehículo se encuentra bajo un programa de mantención previamente establecido.",
+    "empresa": "Transportes Fox",
+    "faena": "Transportes Fox",
+    "icono": "aiwdkaokpwdk",
+    "id": "transportes_fox-checklist-vehiculo_liviano-b-1",
+    "instruccion": "",
+    "nombre": "Vehículo Liviano",
+    "secciones": {
+      "accesorios": {
+        "id": "accesorios",
+        "index": 4,
+        "instruccion": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "nombre": "Accesorios",
+        "preguntas": {
+          "p21": {
+            "contenido": "Barra interna / Certificado",
+            "id": "p21",
+            "index": 21,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p22": {
+            "contenido": "Extintor - Sello - Vencimiento",
+            "id": "p22",
+            "index": 22,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p23": {
+            "contenido": "Cinturón de seguridad",
+            "id": "p23",
+            "index": 23,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p24": {
+            "contenido": "Chapas de puertas",
+            "id": "p24",
+            "index": 24,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p25": {
+            "contenido": "Bocina",
+            "id": "p25",
+            "index": 25,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p26": {
+            "contenido": "Parabrisas",
+            "id": "p26",
+            "index": 26,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p27": {
+            "contenido": "Vidrios laterales",
+            "id": "p27",
+            "index": 27,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p28": {
+            "contenido": "Bolso herramientas",
+            "id": "p28",
+            "index": 28,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p29": {
+            "contenido": "Manillas alza vidrios",
+            "id": "p29",
+            "index": 29,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p30": {
+            "contenido": "Botiquín",
+            "id": "p30",
+            "index": 30,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p31": {
+            "contenido": "Tercer ojo",
+            "id": "p31",
+            "index": 31,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p32": {
+            "contenido": "Cámara de fatiga y somnolencia",
+            "id": "p32",
+            "index": 32,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p33": {
+            "contenido": "Triángulos",
+            "id": "p33",
+            "index": 33,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p34": {
+            "contenido": "Espejos retrovisores",
+            "id": "p34",
+            "index": 34,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p35": {
+            "contenido": "Logotipo FOX",
+            "id": "p35",
+            "index": 35,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p36": {
+            "contenido": "Cuñas",
+            "id": "p36",
+            "index": 36,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p37": {
+            "contenido": "Gata mecánica y manivela",
+            "id": "p37",
+            "index": 37,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p38": {
+            "contenido": "Llave de rueda",
+            "id": "p38",
+            "index": 38,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p39": {
+            "contenido": "Plumilla limpia vidrios",
+            "id": "p39",
+            "index": 39,
+            "isRequired": true,
+            "seccionId": "accesorios",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        }
+      },
+      "combustible": {
+        "id": "combustible",
+        "index": 6,
+        "instruccion": "Indica el nivel de combustible.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "nombre": "Combustible",
+        "preguntas": {
+          "p45": {
+            "contenido": "Combustible",
+            "id": "p45",
+            "index": 45,
+            "isRequired": true,
+            "seccionId": "combustible",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": true,
+                  "label": "E",
+                  "urlImagen": "assets/images/inputs/radio-fuel/fuel_1.svg",
+                  "valor": "E"
+                },
+                "o2": {
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "1/4",
+                  "urlImagen": "assets/images/inputs/radio-fuel/fuel_2.svg",
+                  "valor": "1/4"
+                },
+                "o3": {
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "1/2",
+                  "urlImagen": "assets/images/inputs/radio-fuel/fuel_3.svg",
+                  "valor": "1/2"
+                },
+                "o4": {
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o4",
+                  "isMalo": false,
+                  "label": "3/4",
+                  "urlImagen": "assets/images/inputs/radio-fuel/fuel_4.svg",
+                  "valor": "3/4"
+                },
+                "o5": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o5",
+                  "isMalo": false,
+                  "label": "F",
+                  "urlImagen": "assets/images/inputs/radio-fuel/fuel_5.svg",
+                  "valor": "F"
+                }
+              },
+              "type": "type_radio_fuel"
+            },
+            "tipoPregunta": "combustible",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        }
+      },
+      "documentos": {
+        "id": "documentos",
+        "index": 2,
+        "instruccion": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "nombre": "Documentos",
+        "preguntas": {
+          "p11": {
+            "contenido": "Permiso de circulación",
+            "id": "p11",
+            "index": 11,
+            "isRequired": true,
+            "seccionId": "documentos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p12": {
+            "contenido": "Revisión técnica",
+            "id": "p12",
+            "index": 12,
+            "isRequired": true,
+            "seccionId": "documentos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p13": {
+            "contenido": "Tarjeta de mantención",
+            "id": "p13",
+            "index": 13,
+            "isRequired": true,
+            "seccionId": "documentos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p14": {
+            "contenido": "Seguro obligatorio",
+            "id": "p14",
+            "index": 14,
+            "isRequired": true,
+            "seccionId": "documentos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p15": {
+            "contenido": "Tarjeta o llave combustible",
+            "id": "p15",
+            "index": 15,
+            "isRequired": true,
+            "seccionId": "documentos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p16": {
+            "contenido": "G.P.S",
+            "id": "p16",
+            "index": 16,
+            "isRequired": true,
+            "seccionId": "documentos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        }
+      },
+      "luces": {
+        "id": "luces",
+        "index": 1,
+        "instruccion": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "nombre": "Luces",
+        "preguntas": {
+          "p1": {
+            "contenido": "Luz baja",
+            "id": "p1",
+            "index": 1,
+            "isRequired": true,
+            "seccionId": "luces",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p10": {
+            "contenido": "Pértiga y conexión eléctrica",
+            "id": "p10",
+            "index": 10,
+            "isRequired": true,
+            "seccionId": "luces",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p2": {
+            "contenido": "Luz alta",
+            "id": "p2",
+            "index": 2,
+            "isRequired": true,
+            "seccionId": "luces",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p3": {
+            "contenido": "Luz marcha atrás",
+            "id": "p3",
+            "index": 3,
+            "isRequired": true,
+            "seccionId": "luces",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p4": {
+            "contenido": "Luz interior",
+            "id": "p4",
+            "index": 4,
+            "isRequired": true,
+            "seccionId": "luces",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p5": {
+            "contenido": "Luz de freno",
+            "id": "p5",
+            "index": 5,
+            "isRequired": true,
+            "seccionId": "luces",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p6": {
+            "contenido": "Tercera luz de freno",
+            "id": "p6",
+            "index": 6,
+            "isRequired": true,
+            "seccionId": "luces",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p7": {
+            "contenido": "Intermitentes",
+            "id": "p7",
+            "index": 7,
+            "isRequired": true,
+            "seccionId": "luces",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p8": {
+            "contenido": "Luz patente",
+            "id": "p8",
+            "index": 8,
+            "isRequired": true,
+            "seccionId": "luces",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p9": {
+            "contenido": "Baliza y conexión eléctrica",
+            "id": "p9",
+            "index": 9,
+            "isRequired": true,
+            "seccionId": "luces",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        }
+      },
+      "neumaticos": {
+        "id": "neumaticos",
+        "index": 3,
+        "instruccion": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "nombre": "Neumáticos",
+        "preguntas": {
+          "p17": {
+            "contenido": "Delanteros",
+            "id": "p17",
+            "index": 17,
+            "isRequired": true,
+            "seccionId": "neumaticos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p18": {
+            "contenido": "Traseros",
+            "id": "p18",
+            "index": 18,
+            "isRequired": true,
+            "seccionId": "neumaticos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p19": {
+            "contenido": "Repuestos",
+            "id": "p19",
+            "index": 19,
+            "isRequired": true,
+            "seccionId": "neumaticos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p20": {
+            "contenido": "Revisión de tuercas",
+            "id": "p20",
+            "index": 20,
+            "isRequired": true,
+            "seccionId": "neumaticos",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "B",
+                  "urlImagen": "",
+                  "valor": "B"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "M",
+                  "urlImagen": "",
+                  "valor": "M"
+                },
+                "o3": {
+                  "color": "amarillo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o3",
+                  "isMalo": false,
+                  "label": "N/A",
+                  "urlImagen": "",
+                  "valor": "NA"
+                }
+              },
+              "type": "type_radio_a"
+            },
+            "tipoPregunta": "B-M-N/A",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        }
+      },
+      "observaciones": {
+        "id": "observaciones",
+        "index": 7,
+        "instruccion": "Señala de acuerdo al lado del vehículo, algún detalle u observación.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "nombre": "Observaciones",
+        "preguntas": {
+          "p46": {
+            "contenido": "Lado Copiloto",
+            "id": "p46",
+            "index": 46,
+            "isRequired": false,
+            "seccionId": "observaciones",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o1",
+                  "isMalo": true,
+                  "label": "Lado Copiloto",
+                  "urlImagen": "assets/images/inputs/radio-observaciones/sprinter/sprinter_copiloto.png",
+                  "valor": "Se"
+                }
+              },
+              "type": "type_radio_vehiculo"
+            },
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p47": {
+            "contenido": "Parte Frontal",
+            "id": "p47",
+            "index": 47,
+            "isRequired": false,
+            "seccionId": "observaciones",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o1",
+                  "isMalo": true,
+                  "label": "Parte Frontal",
+                  "urlImagen": "assets/images/inputs/radio-observaciones/sprinter/sprinter_frontal.png",
+                  "valor": "Se"
+                }
+              },
+              "type": "type_radio_vehiculo"
+            },
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p48": {
+            "contenido": "Lado Chofer",
+            "id": "p48",
+            "index": 48,
+            "isRequired": false,
+            "seccionId": "observaciones",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o1",
+                  "isMalo": true,
+                  "label": "Lado Chofer",
+                  "urlImagen": "assets/images/inputs/radio-observaciones/sprinter/sprinter_piloto.png",
+                  "valor": "Se"
+                }
+              },
+              "type": "type_radio_vehiculo"
+            },
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p49": {
+            "contenido": "Parte Trasera",
+            "id": "p49",
+            "index": 49,
+            "isRequired": false,
+            "seccionId": "observaciones",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o1",
+                  "isMalo": true,
+                  "label": "Parte Trasera",
+                  "urlImagen": "assets/images/inputs/radio-observaciones/sprinter/sprinter_trasera.png",
+                  "valor": "Se"
+                }
+              },
+              "type": "type_radio_vehiculo"
+            },
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p50": {
+            "contenido": "Parte Superior",
+            "id": "p50",
+            "index": 50,
+            "isRequired": false,
+            "seccionId": "observaciones",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": true,
+                  "id": "o1",
+                  "isMalo": true,
+                  "label": "Parte Superior",
+                  "urlImagen": "assets/images/inputs/radio-observaciones/sprinter/sprinter_superior.png",
+                  "valor": "Se"
+                }
+              },
+              "type": "type_radio_vehiculo"
+            },
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        }
+      },
+      "paraElConductor": {
+        "id": "paraElConductor",
+        "index": 5,
+        "instruccion": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+        "isNoAplica": false,
+        "isPaginate": false,
+        "nombre": "Para El Conductor",
+        "preguntas": {
+          "p40": {
+            "contenido": "He descansado más de 8 horas",
+            "id": "p40",
+            "index": 40,
+            "isRequired": true,
+            "seccionId": "paraElConductor",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p41": {
+            "contenido": "He consumido alcohol",
+            "id": "p41",
+            "index": 41,
+            "isRequired": true,
+            "seccionId": "paraElConductor",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": true,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p42": {
+            "contenido": "He consumido drogas",
+            "id": "p42",
+            "index": 42,
+            "isRequired": true,
+            "seccionId": "paraElConductor",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": true,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": false,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p43": {
+            "contenido": "Porto mis documentos",
+            "id": "p43",
+            "index": 43,
+            "isRequired": true,
+            "seccionId": "paraElConductor",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          },
+          "p44": {
+            "contenido": "Estoy apto para conducir",
+            "id": "p44",
+            "index": 44,
+            "isRequired": true,
+            "seccionId": "paraElConductor",
+            "tipo": {
+              "opciones": {
+                "o1": {
+                  "color": "verde",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o1",
+                  "isMalo": false,
+                  "label": "S",
+                  "urlImagen": "",
+                  "valor": "S"
+                },
+                "o2": {
+                  "color": "rojo",
+                  "enableComentario": false,
+                  "enableUploadFoto": false,
+                  "id": "o2",
+                  "isMalo": true,
+                  "label": "N",
+                  "urlImagen": "",
+                  "valor": "N"
+                }
+              },
+              "type": "type_radio_b"
+            },
+            "tipoPregunta": "Sí-No",
+            "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+          }
+        }
+      }
+    },
+    "tag": "check_vehiculo_liviano_tfox",
+    "tipo": "checklist"
+  },
+  "correlativo": "VAKU-0065",
+  "emisor": {
+    "areaCargo": "Antofagasta",
+    "cargo": "Administrador1",
+    "codigo": "1234",
+    "codigoPIN": "KRbcY1FbM2iQ9HqTs8QH+g==",
+    "displayName": "Victor Varas",
+    "dispositivos": {
+      "c-5aWKunRuqv-0F_CBPeCj:APA91bFab1TtpLbECjvh5N7NLPuZWMzE2w6mGdMPb2AXdfV-_eIyuX9yGj7TDz4SyjSgvz-0fpOPKxmqdD1XZIbInyi2SFaiWk6cw3rgHxsgorPQkZQ7nboET43gzHdzecSzRFaPwoRx": {
+        "createdAt": "2023-02-15 16:04:05",
+        "id": "c-5aWKunRuqv-0F_CBPeCj:APA91bFab1TtpLbECjvh5N7NLPuZWMzE2w6mGdMPb2AXdfV-_eIyuX9yGj7TDz4SyjSgvz-0fpOPKxmqdD1XZIbInyi2SFaiWk6cw3rgHxsgorPQkZQ7nboET43gzHdzecSzRFaPwoRx",
+        "os": "android",
+        "token": "c-5aWKunRuqv-0F_CBPeCj:APA91bFab1TtpLbECjvh5N7NLPuZWMzE2w6mGdMPb2AXdfV-_eIyuX9yGj7TDz4SyjSgvz-0fpOPKxmqdD1XZIbInyi2SFaiWk6cw3rgHxsgorPQkZQ7nboET43gzHdzecSzRFaPwoRx"
+      },
+      "cLRKGB1KRT2nXB1oPrlExF:APA91bFIqTDnJp944oE8aMtKnKlYZ_8z-rWqi7RPKYMaGp6EeUZ3O2hXMTqdG8msbUC9c5hktQqxoXtdKhSZHkQQVghNsjLm_b4I93nyhRw9SWZmdxOLC-59UMZ21Nk1UW6wf_Ic64rx": {
+        "createdAt": "2023-01-30 15:05:12",
+        "id": "cLRKGB1KRT2nXB1oPrlExF:APA91bFIqTDnJp944oE8aMtKnKlYZ_8z-rWqi7RPKYMaGp6EeUZ3O2hXMTqdG8msbUC9c5hktQqxoXtdKhSZHkQQVghNsjLm_b4I93nyhRw9SWZmdxOLC-59UMZ21Nk1UW6wf_Ic64rx",
+        "os": "android",
+        "token": "cLRKGB1KRT2nXB1oPrlExF:APA91bFIqTDnJp944oE8aMtKnKlYZ_8z-rWqi7RPKYMaGp6EeUZ3O2hXMTqdG8msbUC9c5hktQqxoXtdKhSZHkQQVghNsjLm_b4I93nyhRw9SWZmdxOLC-59UMZ21Nk1UW6wf_Ic64rx"
+      },
+      "dOQhsOazRjO27wL3rwQtJj:APA91bGip6ihgWSG5WJmKl-68Ume18WJro7NWfPeglqTBQp5qUxhy8pr-x-oiTu3HaplRyjsbzDrAXhOImhCujOQrxmTYq0Glj_HXMISAdT3MGEgo31sgZ0oVIZFU1nkwiATrgk88jEX": {
+        "createdAt": "2023-01-30 13:00:23",
+        "id": "dOQhsOazRjO27wL3rwQtJj:APA91bGip6ihgWSG5WJmKl-68Ume18WJro7NWfPeglqTBQp5qUxhy8pr-x-oiTu3HaplRyjsbzDrAXhOImhCujOQrxmTYq0Glj_HXMISAdT3MGEgo31sgZ0oVIZFU1nkwiATrgk88jEX",
+        "os": "android",
+        "token": "dOQhsOazRjO27wL3rwQtJj:APA91bGip6ihgWSG5WJmKl-68Ume18WJro7NWfPeglqTBQp5qUxhy8pr-x-oiTu3HaplRyjsbzDrAXhOImhCujOQrxmTYq0Glj_HXMISAdT3MGEgo31sgZ0oVIZFU1nkwiATrgk88jEX"
+      },
+      "eU2cfzcyTQaa573yvCm3XM:APA91bFcqleO0xTfXvwWqUllGJwJZvWJUm5OBYED7rMCalorHfDnD5QsAbm2pbRgC_z4Idamyy8JYGN50IoFROQpThoIerm8XxeomVof4VugUUbmFt-5awuQlYjC9NMg_nFa2kciEBi_": {
+        "createdAt": "2023-02-15 21:08:19",
+        "id": "eU2cfzcyTQaa573yvCm3XM:APA91bFcqleO0xTfXvwWqUllGJwJZvWJUm5OBYED7rMCalorHfDnD5QsAbm2pbRgC_z4Idamyy8JYGN50IoFROQpThoIerm8XxeomVof4VugUUbmFt-5awuQlYjC9NMg_nFa2kciEBi_",
+        "os": "android",
+        "token": "eU2cfzcyTQaa573yvCm3XM:APA91bFcqleO0xTfXvwWqUllGJwJZvWJUm5OBYED7rMCalorHfDnD5QsAbm2pbRgC_z4Idamyy8JYGN50IoFROQpThoIerm8XxeomVof4VugUUbmFt-5awuQlYjC9NMg_nFa2kciEBi_"
+      },
+      "fKLklcT7QEKPYDzCRuyUlc:APA91bGaq0hxAXWux4yMYnzJdCvUICf_-wUoSAU9huiOJ5MyEndKFWs0weJrX9WtnM0NYGLZx6eB2nyyv0RNBnGwcldDzHbCqV295uScfUIWUCN9eF0HdR4hvE2cFsOY45dJNvS8rjFx": {
+        "createdAt": "2023-02-15 14:54:53",
+        "id": "fKLklcT7QEKPYDzCRuyUlc:APA91bGaq0hxAXWux4yMYnzJdCvUICf_-wUoSAU9huiOJ5MyEndKFWs0weJrX9WtnM0NYGLZx6eB2nyyv0RNBnGwcldDzHbCqV295uScfUIWUCN9eF0HdR4hvE2cFsOY45dJNvS8rjFx",
+        "os": "android",
+        "token": "fKLklcT7QEKPYDzCRuyUlc:APA91bGaq0hxAXWux4yMYnzJdCvUICf_-wUoSAU9huiOJ5MyEndKFWs0weJrX9WtnM0NYGLZx6eB2nyyv0RNBnGwcldDzHbCqV295uScfUIWUCN9eF0HdR4hvE2cFsOY45dJNvS8rjFx"
+      },
+      "fcY-F5d2SjKvUI4JOtHwJQ:APA91bETWaSodJOtkwBpLOWYwXOTqo6GwlNDXyUigU56uNAsF_irbi31WZwYUK1qcEwi6J7gnhwLcjYycBMQNcHsXnDLAWjot8kIPgs3KjPYaczt579j8LtQLxqGET5P7frI41WSE9BJ": {
+        "createdAt": "2023-02-14 15:31:42",
+        "id": "fcY-F5d2SjKvUI4JOtHwJQ:APA91bETWaSodJOtkwBpLOWYwXOTqo6GwlNDXyUigU56uNAsF_irbi31WZwYUK1qcEwi6J7gnhwLcjYycBMQNcHsXnDLAWjot8kIPgs3KjPYaczt579j8LtQLxqGET5P7frI41WSE9BJ",
+        "os": "android",
+        "token": "fcY-F5d2SjKvUI4JOtHwJQ:APA91bETWaSodJOtkwBpLOWYwXOTqo6GwlNDXyUigU56uNAsF_irbi31WZwYUK1qcEwi6J7gnhwLcjYycBMQNcHsXnDLAWjot8kIPgs3KjPYaczt579j8LtQLxqGET5P7frI41WSE9BJ"
+      },
+      "fccwL_XpQT2xwMQXBcBkcG:APA91bHxxpHE3PKo5jG9gx2zR3FbM0-gZR0uNG8s6PT6mVdeAB_BYA-y7nozNRnl590frQgXdcwkKp2V1VBT2AHgi3G7Kl2Y5tw2d90AquCMx409xRPsOnN1OJ14iJqe3gXAhERnZjuc": {
+        "createdAt": "2023-01-29 17:23:30",
+        "id": "fccwL_XpQT2xwMQXBcBkcG:APA91bHxxpHE3PKo5jG9gx2zR3FbM0-gZR0uNG8s6PT6mVdeAB_BYA-y7nozNRnl590frQgXdcwkKp2V1VBT2AHgi3G7Kl2Y5tw2d90AquCMx409xRPsOnN1OJ14iJqe3gXAhERnZjuc",
+        "os": "android",
+        "token": "fccwL_XpQT2xwMQXBcBkcG:APA91bHxxpHE3PKo5jG9gx2zR3FbM0-gZR0uNG8s6PT6mVdeAB_BYA-y7nozNRnl590frQgXdcwkKp2V1VBT2AHgi3G7Kl2Y5tw2d90AquCMx409xRPsOnN1OJ14iJqe3gXAhERnZjuc"
+      }
+    },
+    "email": "victor@somti.cl",
+    "empresa": "VAKU VENTAS",
+    "empresaId": "VAKU",
+    "enrolamiento": {
+      "fechaEnrolamiento": "2023-02-15 14:54:36",
+      "fotografiaFirma": {
+        "id": "79aaf09ab2",
+        "mimeType": "image/png",
+        "name": "vaku_fotografia_carnet.png",
+        "path": "VAKU/images/vaku_fotografia_carnet.png",
+        "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fvaku_fotografia_carnet.png?alt=media&token=2a722f98-29f3-4aa1-abcd-be743ab67f2f"
+      },
+      "isCompletado": true,
+      "isTerminosCondicionesAceptada": true,
+      "versionTerminosCondiciones": "1"
+    },
+    "fechaVencimientoLicencia": "2022-10-14 12:55:14.00",
+    "fotografia": {
+      "id": "154bbc5a13",
+      "mimeType": "image/jpeg",
+      "name": "scaled_0d4d7c3a-d48a-4657-9e79-3934e478845b6405998201697368188.jpg",
+      "path": "VAKU/images/scaled_0d4d7c3a-d48a-4657-9e79-3934e478845b6405998201697368188.jpg",
+      "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fscaled_0d4d7c3a-d48a-4657-9e79-3934e478845b6405998201697368188.jpg?alt=media&token=ac289f4e-6e70-436b-83ff-a5e9e550c8cd"
+    },
+    "id": "qnQonIl9RBXNUaw8PtJxQvei4S93",
+    "isActive": true,
+    "isEliminado": false,
+    "licencia": "Si",
+    "nombre": "Victor Varas",
+    "permisos": {
+      "administrador": {
+        "codigo": "desconocido",
+        "displayName": "Administrador",
+        "id": "administrador"
+      },
+      "creador_checklist": {
+        "codigo": "creador_checklist",
+        "displayName": "Creador de Checklist",
+        "id": "creador_checklist"
+      },
+      "creador_is": {
+        "codigo": "creador_is",
+        "displayName": "Creador de IS",
+        "id": "creador_is"
+      },
+      "planificador": {
+        "codigo": "planificador",
+        "displayName": "Planificador",
+        "id": "planificador"
+      },
+      "responsable": {
+        "codigo": "responsable",
+        "displayName": "Responsable",
+        "id": "responsable"
+      },
+      "validador": {
+        "codigo": "validador",
+        "displayName": "Validador",
+        "id": "validador"
+      }
+    },
+    "rol": {
+      "displayName": "Administrador",
+      "nombre": "administrador"
+    },
+    "rut": "12345678-0",
+    "sexo": "masculino",
+    "tipo": "desconocido",
+    "turno": "Turno A Noche"
+  },
+  "encabezado": {
+    "kilometraje": "646464",
+    "lugarFaena": "Michilla",
+    "tipoVehiculo": "Sprinter",
+    "vehiculo": {
+      "id": "98093646-2044-4447-a4bc-9ef82b14a770",
+      "isEliminado": false,
+      "isServicio": true,
+      "kilometraje": "864849995",
+      "marca": "VOLKSWAGEN",
+      "modelo": "SPRINTER CRAFTR",
+      "numeroInterno": "70",
+      "patente": "JVPL-70",
+      "tipoVehiculo": "Sprinter",
+      "ultimaMantencion": "2022-09-21 14:26:05"
+    }
+  },
+  "estado": "finalizado_sin_plan_accion",
+  "fechaCreacion": "2023-02-16 04:56:22",
+  "fechaSubida": "2023-02-16 04:54:35",
+  "fechaValidacion": "2023-02-16 04:57:06",
+  "id": "1308d07031",
+  "isPlanDeAccion": false,
+  "pdf": {
+    "id": "01a86e00-2a69-4d3c-84de-24c3cdcd15a1",
+    "name": "01a86e00-2a69-4d3c-84de-24c3cdcd15a1",
+    "path": "VAKU/pdf/01a86e00-2a69-4d3c-84de-24c3cdcd15a1",
+    "size": 26036134,
+    "token": "2fbaa58a-b833-4796-a931-c8845ac4fc1b",
+    "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fpdf%2F01a86e00-2a69-4d3c-84de-24c3cdcd15a1?alt=media&token=2fbaa58a-b833-4796-a931-c8845ac4fc1b"
+  },
+  "respuestasMalas": {
+    "p16": {
+      "contenido": "G.P.S",
+      "id": "p16",
+      "index": 16,
+      "isRequired": true,
+      "observacion": "sjsj",
+      "seccionId": "documentos",
+      "tipo": {
+        "opciones": {
+          "o2": {
+            "color": "rojo",
+            "enableComentario": false,
+            "enableUploadFoto": true,
+            "id": "o2",
+            "isMalo": true,
+            "label": "N",
+            "urlImagen": "",
+            "valor": "N"
+          }
+        },
+        "type": "type_radio_b"
+      },
+      "tipoPregunta": "Sí-No",
+      "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+    },
+    "p22": {
+      "contenido": "Extintor - Sello - Vencimiento",
+      "id": "p22",
+      "index": 22,
+      "isRequired": true,
+      "observacion": "sisi",
+      "seccionId": "accesorios",
+      "tipo": {
+        "opciones": {
+          "o2": {
+            "color": "rojo",
+            "enableComentario": false,
+            "enableUploadFoto": true,
+            "id": "o2",
+            "isMalo": true,
+            "label": "M",
+            "urlImagen": "",
+            "valor": "M"
+          }
+        },
+        "type": "type_radio_a"
+      },
+      "tipoPregunta": "B-M-N/A",
+      "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+    },
+    "p32": {
+      "contenido": "Cámara de fatiga y somnolencia",
+      "id": "p32",
+      "index": 32,
+      "isRequired": true,
+      "observacion": "wisis",
+      "seccionId": "accesorios",
+      "tipo": {
+        "opciones": {
+          "o2": {
+            "color": "rojo",
+            "enableComentario": false,
+            "enableUploadFoto": true,
+            "id": "o2",
+            "isMalo": true,
+            "label": "M",
+            "urlImagen": "",
+            "valor": "M"
+          }
+        },
+        "type": "type_radio_a"
+      },
+      "tipoPregunta": "B-M-N/A",
+      "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+    },
+    "p35": {
+      "contenido": "Logotipo FOX",
+      "id": "p35",
+      "index": 35,
+      "isRequired": true,
+      "observacion": "susu",
+      "seccionId": "accesorios",
+      "tipo": {
+        "opciones": {
+          "o2": {
+            "color": "rojo",
+            "enableComentario": false,
+            "enableUploadFoto": true,
+            "id": "o2",
+            "isMalo": true,
+            "label": "M",
+            "urlImagen": "",
+            "valor": "M"
+          }
+        },
+        "type": "type_radio_a"
+      },
+      "tipoPregunta": "B-M-N/A",
+      "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+    },
+    "p41": {
+      "contenido": "He consumido alcohol",
+      "id": "p41",
+      "index": 41,
+      "isRequired": true,
+      "observacion": "",
+      "seccionId": "paraElConductor",
+      "tipo": {
+        "opciones": {
+          "o1": {
+            "color": "rojo",
+            "enableComentario": false,
+            "enableUploadFoto": false,
+            "id": "o1",
+            "isMalo": true,
+            "label": "S",
+            "urlImagen": "",
+            "valor": "S"
+          }
+        },
+        "type": "type_radio_b"
+      },
+      "tipoPregunta": "Sí-No",
+      "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+    },
+    "p42": {
+      "contenido": "He consumido drogas",
+      "id": "p42",
+      "index": 42,
+      "isRequired": true,
+      "observacion": "",
+      "seccionId": "paraElConductor",
+      "tipo": {
+        "opciones": {
+          "o1": {
+            "color": "rojo",
+            "enableComentario": false,
+            "enableUploadFoto": false,
+            "id": "o1",
+            "isMalo": true,
+            "label": "S",
+            "urlImagen": "",
+            "valor": "S"
+          }
+        },
+        "type": "type_radio_b"
+      },
+      "tipoPregunta": "Sí-No",
+      "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+    },
+    "p47": {
+      "contenido": "Parte Frontal",
+      "id": "p47",
+      "imagenes": {
+        "f898ceffe9": {
+          "id": "f898ceffe9",
+          "mimeType": "image/jpeg",
+          "name": "scaled_97feb66b-4d29-4576-825d-7a8e043d1a547491369133555143249.jpg",
+          "path": "VAKU/images/scaled_97feb66b-4d29-4576-825d-7a8e043d1a547491369133555143249.jpg",
+          "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fscaled_97feb66b-4d29-4576-825d-7a8e043d1a547491369133555143249.jpg?alt=media&token=0710c7ef-33e8-4f5a-b159-52dea8ef8794"
+        }
+      },
+      "index": 47,
+      "isRequired": false,
+      "observacion": "sndjjsd",
+      "seccionId": "observaciones",
+      "tipo": {
+        "opciones": {
+          "o1": {
+            "color": "rojo",
+            "enableComentario": false,
+            "enableUploadFoto": true,
+            "id": "o1",
+            "isMalo": true,
+            "label": "Parte Frontal",
+            "urlImagen": "assets/images/inputs/radio-observaciones/sprinter/sprinter_frontal.png",
+            "valor": "Se"
+          }
+        },
+        "type": "type_radio_vehiculo"
+      },
+      "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+    },
+    "p50": {
+      "contenido": "Parte Superior",
+      "id": "p50",
+      "index": 50,
+      "isRequired": false,
+      "observacion": "hola",
+      "seccionId": "observaciones",
+      "tipo": {
+        "opciones": {
+          "o1": {
+            "color": "rojo",
+            "enableComentario": false,
+            "enableUploadFoto": true,
+            "id": "o1",
+            "isMalo": true,
+            "label": "Parte Superior",
+            "urlImagen": "assets/images/inputs/radio-observaciones/sprinter/sprinter_superior.png",
+            "valor": "Se"
+          }
+        },
+        "type": "type_radio_vehiculo"
+      },
+      "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+    },
+    "p7": {
+      "contenido": "Intermitentes",
+      "id": "p7",
+      "imagenes": {
+        "11e725266d": {
+          "id": "11e725266d",
+          "mimeType": "image/jpeg",
+          "name": "scaled_ccc6c047-93da-44d1-999f-f874febc17707836458667130905708.jpg",
+          "path": "VAKU/images/scaled_ccc6c047-93da-44d1-999f-f874febc17707836458667130905708.jpg",
+          "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fscaled_ccc6c047-93da-44d1-999f-f874febc17707836458667130905708.jpg?alt=media&token=f922b90e-a9dd-428b-b827-0c81d8d57271"
+        }
+      },
+      "index": 7,
+      "isRequired": true,
+      "observacion": "jssjks",
+      "seccionId": "luces",
+      "tipo": {
+        "opciones": {
+          "o2": {
+            "color": "rojo",
+            "enableComentario": false,
+            "enableUploadFoto": true,
+            "id": "o2",
+            "isMalo": true,
+            "label": "M",
+            "urlImagen": "",
+            "valor": "M"
+          }
+        },
+        "type": "type_radio_a"
+      },
+      "tipoPregunta": "B-M-N/A",
+      "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+    }
+  },
+  "seccionesRespuestas": {
+    "accesorios": {
+      "id": "accesorios",
+      "index": 4,
+      "instruccion": "Accesorios",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "nombre": "Accesorios",
+      "respuestas": {
+        "p21": {
+          "contenido": "Barra interna / Certificado",
+          "id": "p21",
+          "index": 21,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p22": {
+          "contenido": "Extintor - Sello - Vencimiento",
+          "id": "p22",
+          "index": 22,
+          "isRequired": true,
+          "observacion": "sisi",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o2": {
+                "color": "rojo",
+                "enableComentario": false,
+                "enableUploadFoto": true,
+                "id": "o2",
+                "isMalo": true,
+                "label": "M",
+                "urlImagen": "",
+                "valor": "M"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p23": {
+          "contenido": "Cinturón de seguridad",
+          "id": "p23",
+          "index": 23,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p24": {
+          "contenido": "Chapas de puertas",
+          "id": "p24",
+          "index": 24,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p25": {
+          "contenido": "Bocina",
+          "id": "p25",
+          "index": 25,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p26": {
+          "contenido": "Parabrisas",
+          "id": "p26",
+          "index": 26,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p27": {
+          "contenido": "Vidrios laterales",
+          "id": "p27",
+          "index": 27,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p28": {
+          "contenido": "Bolso herramientas",
+          "id": "p28",
+          "index": 28,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p29": {
+          "contenido": "Manillas alza vidrios",
+          "id": "p29",
+          "index": 29,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p30": {
+          "contenido": "Botiquín",
+          "id": "p30",
+          "index": 30,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p31": {
+          "contenido": "Tercer ojo",
+          "id": "p31",
+          "index": 31,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p32": {
+          "contenido": "Cámara de fatiga y somnolencia",
+          "id": "p32",
+          "index": 32,
+          "isRequired": true,
+          "observacion": "wisis",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o2": {
+                "color": "rojo",
+                "enableComentario": false,
+                "enableUploadFoto": true,
+                "id": "o2",
+                "isMalo": true,
+                "label": "M",
+                "urlImagen": "",
+                "valor": "M"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p33": {
+          "contenido": "Triángulos",
+          "id": "p33",
+          "index": 33,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p34": {
+          "contenido": "Espejos retrovisores",
+          "id": "p34",
+          "index": 34,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p35": {
+          "contenido": "Logotipo FOX",
+          "id": "p35",
+          "index": 35,
+          "isRequired": true,
+          "observacion": "susu",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o2": {
+                "color": "rojo",
+                "enableComentario": false,
+                "enableUploadFoto": true,
+                "id": "o2",
+                "isMalo": true,
+                "label": "M",
+                "urlImagen": "",
+                "valor": "M"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p36": {
+          "contenido": "Cuñas",
+          "id": "p36",
+          "index": 36,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p37": {
+          "contenido": "Gata mecánica y manivela",
+          "id": "p37",
+          "index": 37,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p38": {
+          "contenido": "Llave de rueda",
+          "id": "p38",
+          "index": 38,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p39": {
+          "contenido": "Plumilla limpia vidrios",
+          "id": "p39",
+          "index": 39,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "accesorios",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      }
+    },
+    "combustible": {
+      "id": "combustible",
+      "index": 6,
+      "instruccion": "Combustible",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "nombre": "Combustible",
+      "respuestas": {
+        "p45": {
+          "contenido": "Combustible",
+          "id": "p45",
+          "index": 45,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "combustible",
+          "tipo": {
+            "opciones": {
+              "o3": {
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o3",
+                "isMalo": false,
+                "label": "1/2",
+                "urlImagen": "assets/images/inputs/radio-fuel/fuel_3.svg",
+                "valor": "1/2"
+              }
+            },
+            "type": "type_radio_fuel"
+          },
+          "tipoPregunta": "combustible",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      }
+    },
+    "documentos": {
+      "id": "documentos",
+      "index": 2,
+      "instruccion": "Documentos",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "nombre": "Documentos",
+      "respuestas": {
+        "p11": {
+          "contenido": "Permiso de circulación",
+          "id": "p11",
+          "index": 11,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "documentos",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p12": {
+          "contenido": "Revisión técnica",
+          "id": "p12",
+          "index": 12,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "documentos",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p13": {
+          "contenido": "Tarjeta de mantención",
+          "id": "p13",
+          "index": 13,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "documentos",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p14": {
+          "contenido": "Seguro obligatorio",
+          "id": "p14",
+          "index": 14,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "documentos",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p15": {
+          "contenido": "Tarjeta o llave combustible",
+          "id": "p15",
+          "index": 15,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "documentos",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p16": {
+          "contenido": "G.P.S",
+          "id": "p16",
+          "index": 16,
+          "isRequired": true,
+          "observacion": "sjsj",
+          "seccionId": "documentos",
+          "tipo": {
+            "opciones": {
+              "o2": {
+                "color": "rojo",
+                "enableComentario": false,
+                "enableUploadFoto": true,
+                "id": "o2",
+                "isMalo": true,
+                "label": "N",
+                "urlImagen": "",
+                "valor": "N"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      }
+    },
+    "luces": {
+      "id": "luces",
+      "index": 1,
+      "instruccion": "Luces",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "nombre": "Luces",
+      "respuestas": {
+        "p1": {
+          "contenido": "Luz baja",
+          "id": "p1",
+          "index": 1,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "luces",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p10": {
+          "contenido": "Pértiga y conexión eléctrica",
+          "id": "p10",
+          "index": 10,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "luces",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p2": {
+          "contenido": "Luz alta",
+          "id": "p2",
+          "index": 2,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "luces",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p3": {
+          "contenido": "Luz marcha atrás",
+          "id": "p3",
+          "index": 3,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "luces",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p4": {
+          "contenido": "Luz interior",
+          "id": "p4",
+          "index": 4,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "luces",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p5": {
+          "contenido": "Luz de freno",
+          "id": "p5",
+          "index": 5,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "luces",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p6": {
+          "contenido": "Tercera luz de freno",
+          "id": "p6",
+          "index": 6,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "luces",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p7": {
+          "contenido": "Intermitentes",
+          "id": "p7",
+          "imagenes": {
+            "11e725266d": {
+              "id": "11e725266d",
+              "mimeType": "image/jpeg",
+              "name": "scaled_ccc6c047-93da-44d1-999f-f874febc17707836458667130905708.jpg",
+              "path": "VAKU/images/scaled_ccc6c047-93da-44d1-999f-f874febc17707836458667130905708.jpg",
+              "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fscaled_ccc6c047-93da-44d1-999f-f874febc17707836458667130905708.jpg?alt=media&token=f922b90e-a9dd-428b-b827-0c81d8d57271"
+            }
+          },
+          "index": 7,
+          "isRequired": true,
+          "observacion": "jssjks",
+          "seccionId": "luces",
+          "tipo": {
+            "opciones": {
+              "o2": {
+                "color": "rojo",
+                "enableComentario": false,
+                "enableUploadFoto": true,
+                "id": "o2",
+                "isMalo": true,
+                "label": "M",
+                "urlImagen": "",
+                "valor": "M"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p8": {
+          "contenido": "Luz patente",
+          "id": "p8",
+          "index": 8,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "luces",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p9": {
+          "contenido": "Baliza y conexión eléctrica",
+          "id": "p9",
+          "index": 9,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "luces",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      }
+    },
+    "neumaticos": {
+      "id": "neumaticos",
+      "index": 3,
+      "instruccion": "Neumáticos",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "nombre": "Neumáticos",
+      "respuestas": {
+        "p17": {
+          "contenido": "Delanteros",
+          "id": "p17",
+          "index": 17,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "neumaticos",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p18": {
+          "contenido": "Traseros",
+          "id": "p18",
+          "index": 18,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "neumaticos",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p19": {
+          "contenido": "Repuestos",
+          "id": "p19",
+          "index": 19,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "neumaticos",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p20": {
+          "contenido": "Revisión de tuercas",
+          "id": "p20",
+          "index": 20,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "neumaticos",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "B",
+                "urlImagen": "",
+                "valor": "B"
+              }
+            },
+            "type": "type_radio_a"
+          },
+          "tipoPregunta": "B-M-N/A",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      }
+    },
+    "observaciones": {
+      "id": "observaciones",
+      "index": 7,
+      "instruccion": "Observaciones",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "nombre": "Observaciones",
+      "respuestas": {
+        "p46": {
+          "contenido": "Lado Copiloto",
+          "id": "p46",
+          "index": 46,
+          "isRequired": false,
+          "observacion": "",
+          "seccionId": "observaciones",
+          "tipo": {
+            "type": "type_radio_vehiculo"
+          },
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p47": {
+          "contenido": "Parte Frontal",
+          "id": "p47",
+          "imagenes": {
+            "f898ceffe9": {
+              "id": "f898ceffe9",
+              "mimeType": "image/jpeg",
+              "name": "scaled_97feb66b-4d29-4576-825d-7a8e043d1a547491369133555143249.jpg",
+              "path": "VAKU/images/scaled_97feb66b-4d29-4576-825d-7a8e043d1a547491369133555143249.jpg",
+              "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fscaled_97feb66b-4d29-4576-825d-7a8e043d1a547491369133555143249.jpg?alt=media&token=0710c7ef-33e8-4f5a-b159-52dea8ef8794"
+            }
+          },
+          "index": 47,
+          "isRequired": false,
+          "observacion": "sndjjsd",
+          "seccionId": "observaciones",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "rojo",
+                "enableComentario": false,
+                "enableUploadFoto": true,
+                "id": "o1",
+                "isMalo": true,
+                "label": "Parte Frontal",
+                "urlImagen": "assets/images/inputs/radio-observaciones/sprinter/sprinter_frontal.png",
+                "valor": "Se"
+              }
+            },
+            "type": "type_radio_vehiculo"
+          },
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p48": {
+          "contenido": "Lado Chofer",
+          "id": "p48",
+          "index": 48,
+          "isRequired": false,
+          "observacion": "",
+          "seccionId": "observaciones",
+          "tipo": {
+            "type": "type_radio_vehiculo"
+          },
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p49": {
+          "contenido": "Parte Trasera",
+          "id": "p49",
+          "index": 49,
+          "isRequired": false,
+          "observacion": "",
+          "seccionId": "observaciones",
+          "tipo": {
+            "type": "type_radio_vehiculo"
+          },
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p50": {
+          "contenido": "Parte Superior",
+          "id": "p50",
+          "index": 50,
+          "isRequired": false,
+          "observacion": "hola",
+          "seccionId": "observaciones",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "rojo",
+                "enableComentario": false,
+                "enableUploadFoto": true,
+                "id": "o1",
+                "isMalo": true,
+                "label": "Parte Superior",
+                "urlImagen": "assets/images/inputs/radio-observaciones/sprinter/sprinter_superior.png",
+                "valor": "Se"
+              }
+            },
+            "type": "type_radio_vehiculo"
+          },
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      }
+    },
+    "paraElConductor": {
+      "id": "paraElConductor",
+      "index": 5,
+      "instruccion": "Para El Conductor",
+      "isNoAplica": false,
+      "isPaginate": false,
+      "nombre": "Para El Conductor",
+      "respuestas": {
+        "p40": {
+          "contenido": "He descansado más de 8 horas",
+          "id": "p40",
+          "index": 40,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "paraElConductor",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p41": {
+          "contenido": "He consumido alcohol",
+          "id": "p41",
+          "index": 41,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "paraElConductor",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "rojo",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": true,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p42": {
+          "contenido": "He consumido drogas",
+          "id": "p42",
+          "index": 42,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "paraElConductor",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "rojo",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": true,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p43": {
+          "contenido": "Porto mis documentos",
+          "id": "p43",
+          "index": 43,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "paraElConductor",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        },
+        "p44": {
+          "contenido": "Estoy apto para conducir",
+          "id": "p44",
+          "index": 44,
+          "isRequired": true,
+          "observacion": "",
+          "seccionId": "paraElConductor",
+          "tipo": {
+            "opciones": {
+              "o1": {
+                "color": "verde",
+                "enableComentario": false,
+                "enableUploadFoto": false,
+                "id": "o1",
+                "isMalo": false,
+                "label": "S",
+                "urlImagen": "",
+                "valor": "S"
+              }
+            },
+            "type": "type_radio_b"
+          },
+          "tipoPregunta": "Sí-No",
+          "titulo": "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt."
+        }
+      }
+    }
+  },
+  "validadoPor": {
+    "areaCargo": "Antofagasta",
+    "cargo": "Administrador1",
+    "codigo": "1234",
+    "codigoPIN": "KRbcY1FbM2iQ9HqTs8QH+g==",
+    "displayName": "Victor Varas",
+    "dispositivos": {
+      "c-5aWKunRuqv-0F_CBPeCj:APA91bFab1TtpLbECjvh5N7NLPuZWMzE2w6mGdMPb2AXdfV-_eIyuX9yGj7TDz4SyjSgvz-0fpOPKxmqdD1XZIbInyi2SFaiWk6cw3rgHxsgorPQkZQ7nboET43gzHdzecSzRFaPwoRx": {
+        "createdAt": "2023-02-15 16:04:05",
+        "id": "c-5aWKunRuqv-0F_CBPeCj:APA91bFab1TtpLbECjvh5N7NLPuZWMzE2w6mGdMPb2AXdfV-_eIyuX9yGj7TDz4SyjSgvz-0fpOPKxmqdD1XZIbInyi2SFaiWk6cw3rgHxsgorPQkZQ7nboET43gzHdzecSzRFaPwoRx",
+        "os": "android",
+        "token": "c-5aWKunRuqv-0F_CBPeCj:APA91bFab1TtpLbECjvh5N7NLPuZWMzE2w6mGdMPb2AXdfV-_eIyuX9yGj7TDz4SyjSgvz-0fpOPKxmqdD1XZIbInyi2SFaiWk6cw3rgHxsgorPQkZQ7nboET43gzHdzecSzRFaPwoRx"
+      },
+      "cLRKGB1KRT2nXB1oPrlExF:APA91bFIqTDnJp944oE8aMtKnKlYZ_8z-rWqi7RPKYMaGp6EeUZ3O2hXMTqdG8msbUC9c5hktQqxoXtdKhSZHkQQVghNsjLm_b4I93nyhRw9SWZmdxOLC-59UMZ21Nk1UW6wf_Ic64rx": {
+        "createdAt": "2023-01-30 15:05:12",
+        "id": "cLRKGB1KRT2nXB1oPrlExF:APA91bFIqTDnJp944oE8aMtKnKlYZ_8z-rWqi7RPKYMaGp6EeUZ3O2hXMTqdG8msbUC9c5hktQqxoXtdKhSZHkQQVghNsjLm_b4I93nyhRw9SWZmdxOLC-59UMZ21Nk1UW6wf_Ic64rx",
+        "os": "android",
+        "token": "cLRKGB1KRT2nXB1oPrlExF:APA91bFIqTDnJp944oE8aMtKnKlYZ_8z-rWqi7RPKYMaGp6EeUZ3O2hXMTqdG8msbUC9c5hktQqxoXtdKhSZHkQQVghNsjLm_b4I93nyhRw9SWZmdxOLC-59UMZ21Nk1UW6wf_Ic64rx"
+      },
+      "dOQhsOazRjO27wL3rwQtJj:APA91bGip6ihgWSG5WJmKl-68Ume18WJro7NWfPeglqTBQp5qUxhy8pr-x-oiTu3HaplRyjsbzDrAXhOImhCujOQrxmTYq0Glj_HXMISAdT3MGEgo31sgZ0oVIZFU1nkwiATrgk88jEX": {
+        "createdAt": "2023-01-30 13:00:23",
+        "id": "dOQhsOazRjO27wL3rwQtJj:APA91bGip6ihgWSG5WJmKl-68Ume18WJro7NWfPeglqTBQp5qUxhy8pr-x-oiTu3HaplRyjsbzDrAXhOImhCujOQrxmTYq0Glj_HXMISAdT3MGEgo31sgZ0oVIZFU1nkwiATrgk88jEX",
+        "os": "android",
+        "token": "dOQhsOazRjO27wL3rwQtJj:APA91bGip6ihgWSG5WJmKl-68Ume18WJro7NWfPeglqTBQp5qUxhy8pr-x-oiTu3HaplRyjsbzDrAXhOImhCujOQrxmTYq0Glj_HXMISAdT3MGEgo31sgZ0oVIZFU1nkwiATrgk88jEX"
+      },
+      "eU2cfzcyTQaa573yvCm3XM:APA91bFcqleO0xTfXvwWqUllGJwJZvWJUm5OBYED7rMCalorHfDnD5QsAbm2pbRgC_z4Idamyy8JYGN50IoFROQpThoIerm8XxeomVof4VugUUbmFt-5awuQlYjC9NMg_nFa2kciEBi_": {
+        "createdAt": "2023-02-15 21:08:19",
+        "id": "eU2cfzcyTQaa573yvCm3XM:APA91bFcqleO0xTfXvwWqUllGJwJZvWJUm5OBYED7rMCalorHfDnD5QsAbm2pbRgC_z4Idamyy8JYGN50IoFROQpThoIerm8XxeomVof4VugUUbmFt-5awuQlYjC9NMg_nFa2kciEBi_",
+        "os": "android",
+        "token": "eU2cfzcyTQaa573yvCm3XM:APA91bFcqleO0xTfXvwWqUllGJwJZvWJUm5OBYED7rMCalorHfDnD5QsAbm2pbRgC_z4Idamyy8JYGN50IoFROQpThoIerm8XxeomVof4VugUUbmFt-5awuQlYjC9NMg_nFa2kciEBi_"
+      },
+      "fKLklcT7QEKPYDzCRuyUlc:APA91bGaq0hxAXWux4yMYnzJdCvUICf_-wUoSAU9huiOJ5MyEndKFWs0weJrX9WtnM0NYGLZx6eB2nyyv0RNBnGwcldDzHbCqV295uScfUIWUCN9eF0HdR4hvE2cFsOY45dJNvS8rjFx": {
+        "createdAt": "2023-02-15 14:54:53",
+        "id": "fKLklcT7QEKPYDzCRuyUlc:APA91bGaq0hxAXWux4yMYnzJdCvUICf_-wUoSAU9huiOJ5MyEndKFWs0weJrX9WtnM0NYGLZx6eB2nyyv0RNBnGwcldDzHbCqV295uScfUIWUCN9eF0HdR4hvE2cFsOY45dJNvS8rjFx",
+        "os": "android",
+        "token": "fKLklcT7QEKPYDzCRuyUlc:APA91bGaq0hxAXWux4yMYnzJdCvUICf_-wUoSAU9huiOJ5MyEndKFWs0weJrX9WtnM0NYGLZx6eB2nyyv0RNBnGwcldDzHbCqV295uScfUIWUCN9eF0HdR4hvE2cFsOY45dJNvS8rjFx"
+      },
+      "fcY-F5d2SjKvUI4JOtHwJQ:APA91bETWaSodJOtkwBpLOWYwXOTqo6GwlNDXyUigU56uNAsF_irbi31WZwYUK1qcEwi6J7gnhwLcjYycBMQNcHsXnDLAWjot8kIPgs3KjPYaczt579j8LtQLxqGET5P7frI41WSE9BJ": {
+        "createdAt": "2023-02-14 15:31:42",
+        "id": "fcY-F5d2SjKvUI4JOtHwJQ:APA91bETWaSodJOtkwBpLOWYwXOTqo6GwlNDXyUigU56uNAsF_irbi31WZwYUK1qcEwi6J7gnhwLcjYycBMQNcHsXnDLAWjot8kIPgs3KjPYaczt579j8LtQLxqGET5P7frI41WSE9BJ",
+        "os": "android",
+        "token": "fcY-F5d2SjKvUI4JOtHwJQ:APA91bETWaSodJOtkwBpLOWYwXOTqo6GwlNDXyUigU56uNAsF_irbi31WZwYUK1qcEwi6J7gnhwLcjYycBMQNcHsXnDLAWjot8kIPgs3KjPYaczt579j8LtQLxqGET5P7frI41WSE9BJ"
+      },
+      "fccwL_XpQT2xwMQXBcBkcG:APA91bHxxpHE3PKo5jG9gx2zR3FbM0-gZR0uNG8s6PT6mVdeAB_BYA-y7nozNRnl590frQgXdcwkKp2V1VBT2AHgi3G7Kl2Y5tw2d90AquCMx409xRPsOnN1OJ14iJqe3gXAhERnZjuc": {
+        "createdAt": "2023-01-29 17:23:30",
+        "id": "fccwL_XpQT2xwMQXBcBkcG:APA91bHxxpHE3PKo5jG9gx2zR3FbM0-gZR0uNG8s6PT6mVdeAB_BYA-y7nozNRnl590frQgXdcwkKp2V1VBT2AHgi3G7Kl2Y5tw2d90AquCMx409xRPsOnN1OJ14iJqe3gXAhERnZjuc",
+        "os": "android",
+        "token": "fccwL_XpQT2xwMQXBcBkcG:APA91bHxxpHE3PKo5jG9gx2zR3FbM0-gZR0uNG8s6PT6mVdeAB_BYA-y7nozNRnl590frQgXdcwkKp2V1VBT2AHgi3G7Kl2Y5tw2d90AquCMx409xRPsOnN1OJ14iJqe3gXAhERnZjuc"
+      }
+    },
+    "email": "victor@somti.cl",
+    "empresa": "VAKU VENTAS",
+    "empresaId": "VAKU",
+    "enrolamiento": {
+      "fechaEnrolamiento": "2023-02-15 14:54:36",
+      "fotografiaFirma": {
+        "id": "79aaf09ab2",
+        "mimeType": "image/png",
+        "name": "vaku_fotografia_carnet.png",
+        "path": "VAKU/images/vaku_fotografia_carnet.png",
+        "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fvaku_fotografia_carnet.png?alt=media&token=2a722f98-29f3-4aa1-abcd-be743ab67f2f"
+      },
+      "isCompletado": true,
+      "isTerminosCondicionesAceptada": true,
+      "versionTerminosCondiciones": "1"
+    },
+    "fechaVencimientoLicencia": "2022-10-14 12:55:14.00",
+    "fotografia": {
+      "id": "154bbc5a13",
+      "mimeType": "image/jpeg",
+      "name": "scaled_0d4d7c3a-d48a-4657-9e79-3934e478845b6405998201697368188.jpg",
+      "path": "VAKU/images/scaled_0d4d7c3a-d48a-4657-9e79-3934e478845b6405998201697368188.jpg",
+      "url": "https://firebasestorage.googleapis.com/v0/b/vaku-89121.appspot.com/o/VAKU%2Fimages%2Fscaled_0d4d7c3a-d48a-4657-9e79-3934e478845b6405998201697368188.jpg?alt=media&token=ac289f4e-6e70-436b-83ff-a5e9e550c8cd"
+    },
+    "id": "qnQonIl9RBXNUaw8PtJxQvei4S93",
+    "isActive": true,
+    "isEliminado": false,
+    "licencia": "Si",
+    "nombre": "Victor Varas",
+    "permisos": {
+      "administrador": {
+        "codigo": "desconocido",
+        "displayName": "Administrador",
+        "id": "administrador"
+      },
+      "creador_checklist": {
+        "codigo": "creador_checklist",
+        "displayName": "Creador de Checklist",
+        "id": "creador_checklist"
+      },
+      "creador_is": {
+        "codigo": "creador_is",
+        "displayName": "Creador de IS",
+        "id": "creador_is"
+      },
+      "planificador": {
+        "codigo": "planificador",
+        "displayName": "Planificador",
+        "id": "planificador"
+      },
+      "responsable": {
+        "codigo": "responsable",
+        "displayName": "Responsable",
+        "id": "responsable"
+      },
+      "validador": {
+        "codigo": "validador",
+        "displayName": "Validador",
+        "id": "validador"
+      }
+    },
+    "rol": {
+      "displayName": "Administrador",
+      "nombre": "administrador"
+    },
+    "rut": "12345678-0",
+    "sexo": "masculino",
+    "tipo": "desconocido",
+    "turno": "Turno A Noche"
+  },
+  "vistos": {
+    "qnQonIl9RBXNUaw8PtJxQvei4S93": {
+      "fecha": "2023-02-16 04:56:39",
+      "id": "qnQonIl9RBXNUaw8PtJxQvei4S93"
+    }
+  }
+}

@@ -25,3 +25,9 @@ body {
 .table-row-margin {
   margin-bottom: 20px;
 }
+
+.grid-containerP {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+

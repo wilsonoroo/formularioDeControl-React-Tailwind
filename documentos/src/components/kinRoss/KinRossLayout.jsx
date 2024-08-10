@@ -5,10 +5,11 @@ import { useParams } from "react-router-dom";
 import useSWR from "swr";
 import { getDocumentoById } from "../../firebase/documentos";
 import imgKinRoss from "./kinRossImg.png";
+import dataKin from './datosKinRoss.json'
 
-const fetcher = (url) => fetch(url).then((res) => res.json());
-const url =
-  "https://us-central1-vaku-89121.cloudfunctions.net/account/userfront";
+// const fetcher = (url) => fetch(url).then((res) => res.json());
+// const url =
+//   "https://us-central1-vaku-89121.cloudfunctions.net/account/userfront";
 
 export const KinRossLayout = () => {
   const { empresa, id } = useParams();
@@ -16,40 +17,47 @@ export const KinRossLayout = () => {
   const [loading, setLoading] = useState(true);
   moment.locale("es");
 
-  const { data, error, isLoading } = useSWR(url, fetcher, {
-    revalidateIfStale: false,
-    revalidateOnFocus: false,
-    revalidateOnReconnect: false,
-  });
+  // const { data, error, isLoading } = useSWR(url, fetcher, {
+  //   revalidateIfStale: false,
+  //   revalidateOnFocus: false,
+  //   revalidateOnReconnect: false,
+  // });
+
+  // useEffect(() => {
+  //   console.log(data);
+  //   if (data) {
+  //     setLoading(true);
+  //     console.log(data.token);
+  //     const auth = getAuth();
+  //     let signInOk = signInWithCustomToken(auth, data.token)
+  //       .then((userCredential) => {
+  //         // Signed in
+  //         const user = userCredential.user;
+  //         getDocumentoById(empresa, id)
+  //           .then((resul) => {
+  //             setData(resul);
+  //             console.log(resul.encabezado);
+  //             setLoading(false);
+  //           })
+  //           .catch((error) => {
+  //             console.error(error);
+  //             setLoading(false);
+  //           });
+  //       })
+  //       .catch((error) => {
+  //         const errorCode = error.code;
+  //         const errorMessage = error.message;
+  //         // ...
+  //       });
+  //   }
+  // }, [data]);
 
   useEffect(() => {
-    console.log(data);
-    if (data) {
-      setLoading(true);
-      console.log(data.token);
-      const auth = getAuth();
-      let signInOk = signInWithCustomToken(auth, data.token)
-        .then((userCredential) => {
-          // Signed in
-          const user = userCredential.user;
-          getDocumentoById(empresa, id)
-            .then((resul) => {
-              setData(resul);
-              console.log(resul.encabezado);
-              setLoading(false);
-            })
-            .catch((error) => {
-              console.error(error);
-              setLoading(false);
-            });
-        })
-        .catch((error) => {
-          const errorCode = error.code;
-          const errorMessage = error.message;
-          // ...
-        });
-    }
-  }, [data]);
+    setData(dataKin)
+    setTimeout(() => {
+        setLoading(false);
+    }, 1000);   
+}, [])
 
   useEffect(() => {}, []);
   const { encabezado, fechaCreacion, validadoPor } = dataAux;

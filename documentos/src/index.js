@@ -7,14 +7,17 @@ import { Header } from './components/sierraGorda/Header'
 import { ZaldivarCheckList } from './components/zaldivar/ZaldivarCheckList';
 import { ZaldivarCheckListCC } from './components/zaldivar/ZaldivarCheckListCC';
 import { ProactiveLayout } from './components/proactive/ProactiveLayout'
+import { KinRossLayout } from './components/kinRoss/KinRossLayout';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       {/* <ZaldivarCheckList /> */}
-      {/* <ZaldivarCheckListCC /> */}
-      <ProactiveLayout/>
+      <ZaldivarCheckListCC />
+      {/* <Header/> */}
+      {/* <KinRossLayout/>  */}
+      {/* <ProactiveLayout/> */}
     </BrowserRouter>,
   </React.StrictMode>
 );
